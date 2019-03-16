@@ -1,0 +1,3629 @@
+EESchema Schematic File Version 4
+LIBS:ortho56-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L kbd:ProMicro U1
+U 1 1 5C742E4D
+P 2450 1750
+F 0 "U1" H 2450 2787 60  0000 C CNN
+F 1 "ProMicro" H 2450 2681 60  0000 C CNN
+F 2 "eswai:ArduinoProMicro" H 2550 700 60  0001 C CNN
+F 3 "" H 2550 700 60  0000 C CNN
+	1    2450 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW1
+U 1 1 5C742ED5
+P 5250 1200
+F 0 "SW1" H 5250 1455 50  0000 C CNN
+F 1 "SW_PUSH" H 5250 1364 50  0000 C CNN
+F 2 "eswai:MX_PCB_100H" H 5250 1200 50  0001 C CNN
+F 3 "" H 5250 1200 50  0000 C CNN
+	1    5250 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5C742FCD
+P 5550 1350
+F 0 "D1" V 5596 1271 50  0000 R CNN
+F 1 "D" V 5505 1271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 5550 1350 50  0001 C CNN
+F 3 "~" H 5550 1350 50  0001 C CNN
+	1    5550 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW2
+U 1 1 5C7430FB
+P 6100 1200
+F 0 "SW2" H 6100 1455 50  0000 C CNN
+F 1 "SW_PUSH" H 6100 1364 50  0000 C CNN
+F 2 "eswai:MX_PCB_100H" H 6100 1200 50  0001 C CNN
+F 3 "" H 6100 1200 50  0000 C CNN
+	1    6100 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5C743101
+P 6400 1350
+F 0 "D2" V 6446 1271 50  0000 R CNN
+F 1 "D" V 6355 1271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 6400 1350 50  0001 C CNN
+F 3 "~" H 6400 1350 50  0001 C CNN
+	1    6400 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW3
+U 1 1 5C7431D5
+P 6950 1200
+F 0 "SW3" H 6950 1455 50  0000 C CNN
+F 1 "SW_PUSH" H 6950 1364 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 6950 1200 50  0001 C CNN
+F 3 "" H 6950 1200 50  0000 C CNN
+	1    6950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5C7431DB
+P 7250 1350
+F 0 "D3" V 7296 1271 50  0000 R CNN
+F 1 "D" V 7205 1271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 7250 1350 50  0001 C CNN
+F 3 "~" H 7250 1350 50  0001 C CNN
+	1    7250 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW4
+U 1 1 5C7431E1
+P 7800 1200
+F 0 "SW4" H 7800 1455 50  0000 C CNN
+F 1 "SW_PUSH" H 7800 1364 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 7800 1200 50  0001 C CNN
+F 3 "" H 7800 1200 50  0000 C CNN
+	1    7800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5C7431E7
+P 8100 1350
+F 0 "D4" V 8146 1271 50  0000 R CNN
+F 1 "D" V 8055 1271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 8100 1350 50  0001 C CNN
+F 3 "~" H 8100 1350 50  0001 C CNN
+	1    8100 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW5
+U 1 1 5C743346
+P 8650 1200
+F 0 "SW5" H 8650 1455 50  0000 C CNN
+F 1 "SW_PUSH" H 8650 1364 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 8650 1200 50  0001 C CNN
+F 3 "" H 8650 1200 50  0000 C CNN
+	1    8650 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5C74334C
+P 8950 1350
+F 0 "D5" V 8996 1271 50  0000 R CNN
+F 1 "D" V 8905 1271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 8950 1350 50  0001 C CNN
+F 3 "~" H 8950 1350 50  0001 C CNN
+	1    8950 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW6
+U 1 1 5C743352
+P 9500 1200
+F 0 "SW6" H 9500 1455 50  0000 C CNN
+F 1 "SW_PUSH" H 9500 1364 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 9500 1200 50  0001 C CNN
+F 3 "" H 9500 1200 50  0000 C CNN
+	1    9500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5C743358
+P 9800 1350
+F 0 "D6" V 9846 1271 50  0000 R CNN
+F 1 "D" V 9755 1271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 9800 1350 50  0001 C CNN
+F 3 "~" H 9800 1350 50  0001 C CNN
+	1    9800 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW7
+U 1 1 5C74335E
+P 10350 1200
+F 0 "SW7" H 10350 1455 50  0000 C CNN
+F 1 "SW_PUSH" H 10350 1364 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 10350 1200 50  0001 C CNN
+F 3 "" H 10350 1200 50  0000 C CNN
+	1    10350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 5C743364
+P 10650 1350
+F 0 "D7" V 10696 1271 50  0000 R CNN
+F 1 "D" V 10605 1271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 10650 1350 50  0001 C CNN
+F 3 "~" H 10650 1350 50  0001 C CNN
+	1    10650 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW8
+U 1 1 5C743952
+P 5250 1850
+F 0 "SW8" H 5250 2105 50  0000 C CNN
+F 1 "SW_PUSH" H 5250 2014 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 5250 1850 50  0001 C CNN
+F 3 "" H 5250 1850 50  0000 C CNN
+	1    5250 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 5C743958
+P 5550 2000
+F 0 "D8" V 5596 1921 50  0000 R CNN
+F 1 "D" V 5505 1921 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 5550 2000 50  0001 C CNN
+F 3 "~" H 5550 2000 50  0001 C CNN
+	1    5550 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW9
+U 1 1 5C74395E
+P 6100 1850
+F 0 "SW9" H 6100 2105 50  0000 C CNN
+F 1 "SW_PUSH" H 6100 2014 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 6100 1850 50  0001 C CNN
+F 3 "" H 6100 1850 50  0000 C CNN
+	1    6100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 5C743964
+P 6400 2000
+F 0 "D9" V 6446 1921 50  0000 R CNN
+F 1 "D" V 6355 1921 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 6400 2000 50  0001 C CNN
+F 3 "~" H 6400 2000 50  0001 C CNN
+	1    6400 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW10
+U 1 1 5C74396A
+P 6950 1850
+F 0 "SW10" H 6950 2105 50  0000 C CNN
+F 1 "SW_PUSH" H 6950 2014 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 6950 1850 50  0001 C CNN
+F 3 "" H 6950 1850 50  0000 C CNN
+	1    6950 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 5C743970
+P 7250 2000
+F 0 "D10" V 7296 1921 50  0000 R CNN
+F 1 "D" V 7205 1921 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 7250 2000 50  0001 C CNN
+F 3 "~" H 7250 2000 50  0001 C CNN
+	1    7250 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW11
+U 1 1 5C743976
+P 7800 1850
+F 0 "SW11" H 7800 2105 50  0000 C CNN
+F 1 "SW_PUSH" H 7800 2014 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 7800 1850 50  0001 C CNN
+F 3 "" H 7800 1850 50  0000 C CNN
+	1    7800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 5C74397C
+P 8100 2000
+F 0 "D11" V 8146 1921 50  0000 R CNN
+F 1 "D" V 8055 1921 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 8100 2000 50  0001 C CNN
+F 3 "~" H 8100 2000 50  0001 C CNN
+	1    8100 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW12
+U 1 1 5C743982
+P 8650 1850
+F 0 "SW12" H 8650 2105 50  0000 C CNN
+F 1 "SW_PUSH" H 8650 2014 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 8650 1850 50  0001 C CNN
+F 3 "" H 8650 1850 50  0000 C CNN
+	1    8650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 5C743988
+P 8950 2000
+F 0 "D12" V 8996 1921 50  0000 R CNN
+F 1 "D" V 8905 1921 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 8950 2000 50  0001 C CNN
+F 3 "~" H 8950 2000 50  0001 C CNN
+	1    8950 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW13
+U 1 1 5C74398E
+P 9500 1850
+F 0 "SW13" H 9500 2105 50  0000 C CNN
+F 1 "SW_PUSH" H 9500 2014 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 9500 1850 50  0001 C CNN
+F 3 "" H 9500 1850 50  0000 C CNN
+	1    9500 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 5C743994
+P 9800 2000
+F 0 "D13" V 9846 1921 50  0000 R CNN
+F 1 "D" V 9755 1921 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 9800 2000 50  0001 C CNN
+F 3 "~" H 9800 2000 50  0001 C CNN
+	1    9800 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW14
+U 1 1 5C74399A
+P 10350 1850
+F 0 "SW14" H 10350 2105 50  0000 C CNN
+F 1 "SW_PUSH" H 10350 2014 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 10350 1850 50  0001 C CNN
+F 3 "" H 10350 1850 50  0000 C CNN
+	1    10350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 5C7439A0
+P 10650 2000
+F 0 "D14" V 10696 1921 50  0000 R CNN
+F 1 "D" V 10605 1921 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 10650 2000 50  0001 C CNN
+F 3 "~" H 10650 2000 50  0001 C CNN
+	1    10650 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW15
+U 1 1 5C744193
+P 5250 2500
+F 0 "SW15" H 5250 2755 50  0000 C CNN
+F 1 "SW_PUSH" H 5250 2664 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 5250 2500 50  0001 C CNN
+F 3 "" H 5250 2500 50  0000 C CNN
+	1    5250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 5C744199
+P 5550 2650
+F 0 "D15" V 5596 2571 50  0000 R CNN
+F 1 "D" V 5505 2571 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 5550 2650 50  0001 C CNN
+F 3 "~" H 5550 2650 50  0001 C CNN
+	1    5550 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW16
+U 1 1 5C74419F
+P 6100 2500
+F 0 "SW16" H 6100 2755 50  0000 C CNN
+F 1 "SW_PUSH" H 6100 2664 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 6100 2500 50  0001 C CNN
+F 3 "" H 6100 2500 50  0000 C CNN
+	1    6100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 5C7441A5
+P 6400 2650
+F 0 "D16" V 6446 2571 50  0000 R CNN
+F 1 "D" V 6355 2571 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 6400 2650 50  0001 C CNN
+F 3 "~" H 6400 2650 50  0001 C CNN
+	1    6400 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW17
+U 1 1 5C7441AB
+P 6950 2500
+F 0 "SW17" H 6950 2755 50  0000 C CNN
+F 1 "SW_PUSH" H 6950 2664 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 6950 2500 50  0001 C CNN
+F 3 "" H 6950 2500 50  0000 C CNN
+	1    6950 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 5C7441B1
+P 7250 2650
+F 0 "D17" V 7296 2571 50  0000 R CNN
+F 1 "D" V 7205 2571 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 7250 2650 50  0001 C CNN
+F 3 "~" H 7250 2650 50  0001 C CNN
+	1    7250 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW18
+U 1 1 5C7441B7
+P 7800 2500
+F 0 "SW18" H 7800 2755 50  0000 C CNN
+F 1 "SW_PUSH" H 7800 2664 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 7800 2500 50  0001 C CNN
+F 3 "" H 7800 2500 50  0000 C CNN
+	1    7800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 5C7441BD
+P 8100 2650
+F 0 "D18" V 8146 2571 50  0000 R CNN
+F 1 "D" V 8055 2571 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 8100 2650 50  0001 C CNN
+F 3 "~" H 8100 2650 50  0001 C CNN
+	1    8100 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW19
+U 1 1 5C7441C3
+P 8650 2500
+F 0 "SW19" H 8650 2755 50  0000 C CNN
+F 1 "SW_PUSH" H 8650 2664 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 8650 2500 50  0001 C CNN
+F 3 "" H 8650 2500 50  0000 C CNN
+	1    8650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 5C7441C9
+P 8950 2650
+F 0 "D19" V 8996 2571 50  0000 R CNN
+F 1 "D" V 8905 2571 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 8950 2650 50  0001 C CNN
+F 3 "~" H 8950 2650 50  0001 C CNN
+	1    8950 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW20
+U 1 1 5C7441CF
+P 9500 2500
+F 0 "SW20" H 9500 2755 50  0000 C CNN
+F 1 "SW_PUSH" H 9500 2664 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 9500 2500 50  0001 C CNN
+F 3 "" H 9500 2500 50  0000 C CNN
+	1    9500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 5C7441D5
+P 9800 2650
+F 0 "D20" V 9846 2571 50  0000 R CNN
+F 1 "D" V 9755 2571 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 9800 2650 50  0001 C CNN
+F 3 "~" H 9800 2650 50  0001 C CNN
+	1    9800 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW21
+U 1 1 5C7441DB
+P 10350 2500
+F 0 "SW21" H 10350 2755 50  0000 C CNN
+F 1 "SW_PUSH" H 10350 2664 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 10350 2500 50  0001 C CNN
+F 3 "" H 10350 2500 50  0000 C CNN
+	1    10350 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 5C7441E1
+P 10650 2650
+F 0 "D21" V 10696 2571 50  0000 R CNN
+F 1 "D" V 10605 2571 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 10650 2650 50  0001 C CNN
+F 3 "~" H 10650 2650 50  0001 C CNN
+	1    10650 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW22
+U 1 1 5C7441E7
+P 5250 3150
+F 0 "SW22" H 5250 3405 50  0000 C CNN
+F 1 "SW_PUSH" H 5250 3314 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 5250 3150 50  0001 C CNN
+F 3 "" H 5250 3150 50  0000 C CNN
+	1    5250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 5C7441ED
+P 5550 3300
+F 0 "D22" V 5596 3221 50  0000 R CNN
+F 1 "D" V 5505 3221 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 5550 3300 50  0001 C CNN
+F 3 "~" H 5550 3300 50  0001 C CNN
+	1    5550 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW23
+U 1 1 5C7441F3
+P 6100 3150
+F 0 "SW23" H 6100 3405 50  0000 C CNN
+F 1 "SW_PUSH" H 6100 3314 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 6100 3150 50  0001 C CNN
+F 3 "" H 6100 3150 50  0000 C CNN
+	1    6100 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 5C7441F9
+P 6400 3300
+F 0 "D23" V 6446 3221 50  0000 R CNN
+F 1 "D" V 6355 3221 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 6400 3300 50  0001 C CNN
+F 3 "~" H 6400 3300 50  0001 C CNN
+	1    6400 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW24
+U 1 1 5C7441FF
+P 6950 3150
+F 0 "SW24" H 6950 3405 50  0000 C CNN
+F 1 "SW_PUSH" H 6950 3314 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 6950 3150 50  0001 C CNN
+F 3 "" H 6950 3150 50  0000 C CNN
+	1    6950 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 5C744205
+P 7250 3300
+F 0 "D24" V 7296 3221 50  0000 R CNN
+F 1 "D" V 7205 3221 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 7250 3300 50  0001 C CNN
+F 3 "~" H 7250 3300 50  0001 C CNN
+	1    7250 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW25
+U 1 1 5C74420B
+P 7800 3150
+F 0 "SW25" H 7800 3405 50  0000 C CNN
+F 1 "SW_PUSH" H 7800 3314 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 7800 3150 50  0001 C CNN
+F 3 "" H 7800 3150 50  0000 C CNN
+	1    7800 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 5C744211
+P 8100 3300
+F 0 "D25" V 8146 3221 50  0000 R CNN
+F 1 "D" V 8055 3221 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 8100 3300 50  0001 C CNN
+F 3 "~" H 8100 3300 50  0001 C CNN
+	1    8100 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW26
+U 1 1 5C744217
+P 8650 3150
+F 0 "SW26" H 8650 3405 50  0000 C CNN
+F 1 "SW_PUSH" H 8650 3314 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 8650 3150 50  0001 C CNN
+F 3 "" H 8650 3150 50  0000 C CNN
+	1    8650 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D26
+U 1 1 5C74421D
+P 8950 3300
+F 0 "D26" V 8996 3221 50  0000 R CNN
+F 1 "D" V 8905 3221 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 8950 3300 50  0001 C CNN
+F 3 "~" H 8950 3300 50  0001 C CNN
+	1    8950 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW27
+U 1 1 5C744223
+P 9500 3150
+F 0 "SW27" H 9500 3405 50  0000 C CNN
+F 1 "SW_PUSH" H 9500 3314 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 9500 3150 50  0001 C CNN
+F 3 "" H 9500 3150 50  0000 C CNN
+	1    9500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 5C744229
+P 9800 3300
+F 0 "D27" V 9846 3221 50  0000 R CNN
+F 1 "D" V 9755 3221 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 9800 3300 50  0001 C CNN
+F 3 "~" H 9800 3300 50  0001 C CNN
+	1    9800 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW28
+U 1 1 5C74422F
+P 10350 3150
+F 0 "SW28" H 10350 3405 50  0000 C CNN
+F 1 "SW_PUSH" H 10350 3314 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 10350 3150 50  0001 C CNN
+F 3 "" H 10350 3150 50  0000 C CNN
+	1    10350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D28
+U 1 1 5C744235
+P 10650 3300
+F 0 "D28" V 10696 3221 50  0000 R CNN
+F 1 "D" V 10605 3221 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 10650 3300 50  0001 C CNN
+F 3 "~" H 10650 3300 50  0001 C CNN
+	1    10650 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW29
+U 1 1 5C744B72
+P 5250 3800
+F 0 "SW29" H 5250 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 5250 3964 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 5250 3800 50  0001 C CNN
+F 3 "" H 5250 3800 50  0000 C CNN
+	1    5250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 5C744B78
+P 5550 3950
+F 0 "D29" V 5596 3871 50  0000 R CNN
+F 1 "D" V 5505 3871 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 5550 3950 50  0001 C CNN
+F 3 "~" H 5550 3950 50  0001 C CNN
+	1    5550 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW30
+U 1 1 5C744B7E
+P 6100 3800
+F 0 "SW30" H 6100 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 6100 3964 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 6100 3800 50  0001 C CNN
+F 3 "" H 6100 3800 50  0000 C CNN
+	1    6100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 5C744B84
+P 6400 3950
+F 0 "D30" V 6446 3871 50  0000 R CNN
+F 1 "D" V 6355 3871 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 6400 3950 50  0001 C CNN
+F 3 "~" H 6400 3950 50  0001 C CNN
+	1    6400 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW31
+U 1 1 5C744B8A
+P 6950 3800
+F 0 "SW31" H 6950 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 6950 3964 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 6950 3800 50  0001 C CNN
+F 3 "" H 6950 3800 50  0000 C CNN
+	1    6950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 5C744B90
+P 7250 3950
+F 0 "D31" V 7296 3871 50  0000 R CNN
+F 1 "D" V 7205 3871 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 7250 3950 50  0001 C CNN
+F 3 "~" H 7250 3950 50  0001 C CNN
+	1    7250 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW32
+U 1 1 5C744B96
+P 7800 3800
+F 0 "SW32" H 7800 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 7800 3964 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 7800 3800 50  0001 C CNN
+F 3 "" H 7800 3800 50  0000 C CNN
+	1    7800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 5C744B9C
+P 8100 3950
+F 0 "D32" V 8146 3871 50  0000 R CNN
+F 1 "D" V 8055 3871 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 8100 3950 50  0001 C CNN
+F 3 "~" H 8100 3950 50  0001 C CNN
+	1    8100 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW33
+U 1 1 5C744BA2
+P 8650 3800
+F 0 "SW33" H 8650 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 8650 3964 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 8650 3800 50  0001 C CNN
+F 3 "" H 8650 3800 50  0000 C CNN
+	1    8650 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D33
+U 1 1 5C744BA8
+P 8950 3950
+F 0 "D33" V 8996 3871 50  0000 R CNN
+F 1 "D" V 8905 3871 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 8950 3950 50  0001 C CNN
+F 3 "~" H 8950 3950 50  0001 C CNN
+	1    8950 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW34
+U 1 1 5C744BAE
+P 9500 3800
+F 0 "SW34" H 9500 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 9500 3964 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 9500 3800 50  0001 C CNN
+F 3 "" H 9500 3800 50  0000 C CNN
+	1    9500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 5C744BB4
+P 9800 3950
+F 0 "D34" V 9846 3871 50  0000 R CNN
+F 1 "D" V 9755 3871 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 9800 3950 50  0001 C CNN
+F 3 "~" H 9800 3950 50  0001 C CNN
+	1    9800 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW35
+U 1 1 5C744BBA
+P 10350 3800
+F 0 "SW35" H 10350 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 10350 3964 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 10350 3800 50  0001 C CNN
+F 3 "" H 10350 3800 50  0000 C CNN
+	1    10350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 5C744BC0
+P 10650 3950
+F 0 "D35" V 10696 3871 50  0000 R CNN
+F 1 "D" V 10605 3871 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 10650 3950 50  0001 C CNN
+F 3 "~" H 10650 3950 50  0001 C CNN
+	1    10650 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW36
+U 1 1 5C744BC6
+P 5250 4450
+F 0 "SW36" H 5250 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 5250 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 5250 4450 50  0001 C CNN
+F 3 "" H 5250 4450 50  0000 C CNN
+	1    5250 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D36
+U 1 1 5C744BCC
+P 5550 4600
+F 0 "D36" V 5596 4521 50  0000 R CNN
+F 1 "D" V 5505 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 5550 4600 50  0001 C CNN
+F 3 "~" H 5550 4600 50  0001 C CNN
+	1    5550 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW37
+U 1 1 5C744BD2
+P 6100 4450
+F 0 "SW37" H 6100 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 6100 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 6100 4450 50  0001 C CNN
+F 3 "" H 6100 4450 50  0000 C CNN
+	1    6100 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D37
+U 1 1 5C744BD8
+P 6400 4600
+F 0 "D37" V 6446 4521 50  0000 R CNN
+F 1 "D" V 6355 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 6400 4600 50  0001 C CNN
+F 3 "~" H 6400 4600 50  0001 C CNN
+	1    6400 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW38
+U 1 1 5C744BDE
+P 6950 4450
+F 0 "SW38" H 6950 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 6950 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 6950 4450 50  0001 C CNN
+F 3 "" H 6950 4450 50  0000 C CNN
+	1    6950 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 5C744BE4
+P 7250 4600
+F 0 "D38" V 7296 4521 50  0000 R CNN
+F 1 "D" V 7205 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 7250 4600 50  0001 C CNN
+F 3 "~" H 7250 4600 50  0001 C CNN
+	1    7250 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW39
+U 1 1 5C744BEA
+P 7800 4450
+F 0 "SW39" H 7800 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 7800 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 7800 4450 50  0001 C CNN
+F 3 "" H 7800 4450 50  0000 C CNN
+	1    7800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D39
+U 1 1 5C744BF0
+P 8100 4600
+F 0 "D39" V 8146 4521 50  0000 R CNN
+F 1 "D" V 8055 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 8100 4600 50  0001 C CNN
+F 3 "~" H 8100 4600 50  0001 C CNN
+	1    8100 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW40
+U 1 1 5C744BF6
+P 8650 4450
+F 0 "SW40" H 8650 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 8650 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 8650 4450 50  0001 C CNN
+F 3 "" H 8650 4450 50  0000 C CNN
+	1    8650 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D40
+U 1 1 5C744BFC
+P 8950 4600
+F 0 "D40" V 8996 4521 50  0000 R CNN
+F 1 "D" V 8905 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 8950 4600 50  0001 C CNN
+F 3 "~" H 8950 4600 50  0001 C CNN
+	1    8950 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW41
+U 1 1 5C744C02
+P 9500 4450
+F 0 "SW41" H 9500 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 9500 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 9500 4450 50  0001 C CNN
+F 3 "" H 9500 4450 50  0000 C CNN
+	1    9500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D41
+U 1 1 5C744C08
+P 9800 4600
+F 0 "D41" V 9846 4521 50  0000 R CNN
+F 1 "D" V 9755 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 9800 4600 50  0001 C CNN
+F 3 "~" H 9800 4600 50  0001 C CNN
+	1    9800 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW42
+U 1 1 5C744C0E
+P 10350 4450
+F 0 "SW42" H 10350 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 10350 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 10350 4450 50  0001 C CNN
+F 3 "" H 10350 4450 50  0000 C CNN
+	1    10350 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D42
+U 1 1 5C744C14
+P 10650 4600
+F 0 "D42" V 10696 4521 50  0000 R CNN
+F 1 "D" V 10605 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 10650 4600 50  0001 C CNN
+F 3 "~" H 10650 4600 50  0001 C CNN
+	1    10650 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW43
+U 1 1 5C744C1A
+P 5250 5100
+F 0 "SW43" H 5250 5355 50  0000 C CNN
+F 1 "SW_PUSH" H 5250 5264 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 5250 5100 50  0001 C CNN
+F 3 "" H 5250 5100 50  0000 C CNN
+	1    5250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 5C744C20
+P 5550 5250
+F 0 "D43" V 5596 5171 50  0000 R CNN
+F 1 "D" V 5505 5171 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 5550 5250 50  0001 C CNN
+F 3 "~" H 5550 5250 50  0001 C CNN
+	1    5550 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW44
+U 1 1 5C744C26
+P 6100 5100
+F 0 "SW44" H 6100 5355 50  0000 C CNN
+F 1 "SW_PUSH" H 6100 5264 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 6100 5100 50  0001 C CNN
+F 3 "" H 6100 5100 50  0000 C CNN
+	1    6100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 5C744C2C
+P 6400 5250
+F 0 "D44" V 6446 5171 50  0000 R CNN
+F 1 "D" V 6355 5171 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 6400 5250 50  0001 C CNN
+F 3 "~" H 6400 5250 50  0001 C CNN
+	1    6400 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW45
+U 1 1 5C744C32
+P 6950 5100
+F 0 "SW45" H 6950 5355 50  0000 C CNN
+F 1 "SW_PUSH" H 6950 5264 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 6950 5100 50  0001 C CNN
+F 3 "" H 6950 5100 50  0000 C CNN
+	1    6950 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D45
+U 1 1 5C744C38
+P 7250 5250
+F 0 "D45" V 7296 5171 50  0000 R CNN
+F 1 "D" V 7205 5171 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 7250 5250 50  0001 C CNN
+F 3 "~" H 7250 5250 50  0001 C CNN
+	1    7250 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW46
+U 1 1 5C75C468
+P 7800 5100
+F 0 "SW46" H 7800 5355 50  0000 C CNN
+F 1 "SW_PUSH" H 7800 5264 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 7800 5100 50  0001 C CNN
+F 3 "" H 7800 5100 50  0000 C CNN
+	1    7800 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D46
+U 1 1 5C744C44
+P 8100 5250
+F 0 "D46" V 8146 5171 50  0000 R CNN
+F 1 "D" V 8055 5171 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 8100 5250 50  0001 C CNN
+F 3 "~" H 8100 5250 50  0001 C CNN
+	1    8100 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW47
+U 1 1 5C744C4A
+P 8650 5100
+F 0 "SW47" H 8650 5355 50  0000 C CNN
+F 1 "SW_PUSH" H 8650 5264 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 8650 5100 50  0001 C CNN
+F 3 "" H 8650 5100 50  0000 C CNN
+	1    8650 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D47
+U 1 1 5C744C50
+P 8950 5250
+F 0 "D47" V 8996 5171 50  0000 R CNN
+F 1 "D" V 8905 5171 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 8950 5250 50  0001 C CNN
+F 3 "~" H 8950 5250 50  0001 C CNN
+	1    8950 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW48
+U 1 1 5C744C56
+P 9500 5100
+F 0 "SW48" H 9500 5355 50  0000 C CNN
+F 1 "SW_PUSH" H 9500 5264 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 9500 5100 50  0001 C CNN
+F 3 "" H 9500 5100 50  0000 C CNN
+	1    9500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D48
+U 1 1 5C744C5C
+P 9800 5250
+F 0 "D48" V 9846 5171 50  0000 R CNN
+F 1 "D" V 9755 5171 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 9800 5250 50  0001 C CNN
+F 3 "~" H 9800 5250 50  0001 C CNN
+	1    9800 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW49
+U 1 1 5C744C62
+P 10350 5100
+F 0 "SW49" H 10350 5355 50  0000 C CNN
+F 1 "SW_PUSH" H 10350 5264 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 10350 5100 50  0001 C CNN
+F 3 "" H 10350 5100 50  0000 C CNN
+	1    10350 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D49
+U 1 1 5C744C68
+P 10650 5250
+F 0 "D49" V 10696 5171 50  0000 R CNN
+F 1 "D" V 10605 5171 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 10650 5250 50  0001 C CNN
+F 3 "~" H 10650 5250 50  0001 C CNN
+	1    10650 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW50
+U 1 1 5C744C6E
+P 5250 5750
+F 0 "SW50" H 5250 6005 50  0000 C CNN
+F 1 "SW_PUSH" H 5250 5914 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 5250 5750 50  0001 C CNN
+F 3 "" H 5250 5750 50  0000 C CNN
+	1    5250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D50
+U 1 1 5C744C74
+P 5550 5900
+F 0 "D50" V 5596 5821 50  0000 R CNN
+F 1 "D" V 5505 5821 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 5550 5900 50  0001 C CNN
+F 3 "~" H 5550 5900 50  0001 C CNN
+	1    5550 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW51
+U 1 1 5C744C7A
+P 6100 5750
+F 0 "SW51" H 6100 6005 50  0000 C CNN
+F 1 "SW_PUSH" H 6100 5914 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 6100 5750 50  0001 C CNN
+F 3 "" H 6100 5750 50  0000 C CNN
+	1    6100 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D51
+U 1 1 5C744C80
+P 6400 5900
+F 0 "D51" V 6446 5821 50  0000 R CNN
+F 1 "D" V 6355 5821 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 6400 5900 50  0001 C CNN
+F 3 "~" H 6400 5900 50  0001 C CNN
+	1    6400 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW52
+U 1 1 5C744C86
+P 6950 5750
+F 0 "SW52" H 6950 6005 50  0000 C CNN
+F 1 "SW_PUSH" H 6950 5914 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 6950 5750 50  0001 C CNN
+F 3 "" H 6950 5750 50  0000 C CNN
+	1    6950 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D52
+U 1 1 5C744C8C
+P 7250 5900
+F 0 "D52" V 7296 5821 50  0000 R CNN
+F 1 "D" V 7205 5821 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 7250 5900 50  0001 C CNN
+F 3 "~" H 7250 5900 50  0001 C CNN
+	1    7250 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW53
+U 1 1 5C744C92
+P 7800 5750
+F 0 "SW53" H 7800 6005 50  0000 C CNN
+F 1 "SW_PUSH" H 7800 5914 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 7800 5750 50  0001 C CNN
+F 3 "" H 7800 5750 50  0000 C CNN
+	1    7800 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D53
+U 1 1 5C744C98
+P 8100 5900
+F 0 "D53" V 8146 5821 50  0000 R CNN
+F 1 "D" V 8055 5821 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 8100 5900 50  0001 C CNN
+F 3 "~" H 8100 5900 50  0001 C CNN
+	1    8100 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW54
+U 1 1 5C744C9E
+P 8650 5750
+F 0 "SW54" H 8650 6005 50  0000 C CNN
+F 1 "SW_PUSH" H 8650 5914 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 8650 5750 50  0001 C CNN
+F 3 "" H 8650 5750 50  0000 C CNN
+	1    8650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D54
+U 1 1 5C744CA4
+P 8950 5900
+F 0 "D54" V 8996 5821 50  0000 R CNN
+F 1 "D" V 8905 5821 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 8950 5900 50  0001 C CNN
+F 3 "~" H 8950 5900 50  0001 C CNN
+	1    8950 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW55
+U 1 1 5C744CAA
+P 9500 5750
+F 0 "SW55" H 9500 6005 50  0000 C CNN
+F 1 "SW_PUSH" H 9500 5914 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 9500 5750 50  0001 C CNN
+F 3 "" H 9500 5750 50  0000 C CNN
+	1    9500 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D55
+U 1 1 5C744CB0
+P 9800 5900
+F 0 "D55" V 9846 5821 50  0000 R CNN
+F 1 "D" V 9755 5821 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 9800 5900 50  0001 C CNN
+F 3 "~" H 9800 5900 50  0001 C CNN
+	1    9800 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW56
+U 1 1 5C744CB6
+P 10350 5750
+F 0 "SW56" H 10350 6005 50  0000 C CNN
+F 1 "SW_PUSH" H 10350 5914 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 10350 5750 50  0001 C CNN
+F 3 "" H 10350 5750 50  0000 C CNN
+	1    10350 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D56
+U 1 1 5C744CBC
+P 10650 5900
+F 0 "D56" V 10696 5821 50  0000 R CNN
+F 1 "D" V 10605 5821 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 10650 5900 50  0001 C CNN
+F 3 "~" H 10650 5900 50  0001 C CNN
+	1    10650 5900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10650 6050 9800 6050
+Connection ~ 5550 6050
+Wire Wire Line
+	5550 6050 4700 6050
+Connection ~ 6400 6050
+Wire Wire Line
+	6400 6050 5550 6050
+Connection ~ 7250 6050
+Wire Wire Line
+	7250 6050 6400 6050
+Connection ~ 8100 6050
+Wire Wire Line
+	8100 6050 7250 6050
+Connection ~ 8950 6050
+Wire Wire Line
+	8950 6050 8100 6050
+Connection ~ 9800 6050
+Wire Wire Line
+	9800 6050 8950 6050
+Wire Wire Line
+	10650 5400 9800 5400
+Connection ~ 5550 5400
+Wire Wire Line
+	5550 5400 4700 5400
+Connection ~ 6400 5400
+Wire Wire Line
+	6400 5400 5550 5400
+Connection ~ 7250 5400
+Wire Wire Line
+	7250 5400 6400 5400
+Connection ~ 8100 5400
+Wire Wire Line
+	8100 5400 7250 5400
+Connection ~ 8950 5400
+Wire Wire Line
+	8950 5400 8100 5400
+Connection ~ 9800 5400
+Wire Wire Line
+	9800 5400 8950 5400
+Wire Wire Line
+	10650 4750 9800 4750
+Connection ~ 5550 4750
+Wire Wire Line
+	5550 4750 4700 4750
+Connection ~ 6400 4750
+Wire Wire Line
+	6400 4750 5550 4750
+Connection ~ 7250 4750
+Wire Wire Line
+	7250 4750 6400 4750
+Connection ~ 8100 4750
+Wire Wire Line
+	8100 4750 7250 4750
+Connection ~ 8950 4750
+Wire Wire Line
+	8950 4750 8100 4750
+Connection ~ 9800 4750
+Wire Wire Line
+	9800 4750 8950 4750
+Wire Wire Line
+	10650 4100 9800 4100
+Connection ~ 5550 4100
+Wire Wire Line
+	5550 4100 4700 4100
+Connection ~ 6400 4100
+Wire Wire Line
+	6400 4100 5550 4100
+Connection ~ 7250 4100
+Wire Wire Line
+	7250 4100 6400 4100
+Connection ~ 8100 4100
+Wire Wire Line
+	8100 4100 7250 4100
+Connection ~ 8950 4100
+Wire Wire Line
+	8950 4100 8100 4100
+Connection ~ 9800 4100
+Wire Wire Line
+	9800 4100 8950 4100
+Wire Wire Line
+	10650 3450 9800 3450
+Connection ~ 5550 3450
+Wire Wire Line
+	5550 3450 4700 3450
+Connection ~ 6400 3450
+Wire Wire Line
+	6400 3450 5550 3450
+Connection ~ 7250 3450
+Wire Wire Line
+	7250 3450 6400 3450
+Connection ~ 8100 3450
+Wire Wire Line
+	8100 3450 7250 3450
+Connection ~ 8950 3450
+Wire Wire Line
+	8950 3450 8100 3450
+Connection ~ 9800 3450
+Wire Wire Line
+	9800 3450 8950 3450
+Wire Wire Line
+	10650 2800 9800 2800
+Connection ~ 5550 2800
+Wire Wire Line
+	5550 2800 4700 2800
+Connection ~ 6400 2800
+Wire Wire Line
+	6400 2800 5550 2800
+Connection ~ 7250 2800
+Wire Wire Line
+	7250 2800 6400 2800
+Connection ~ 8100 2800
+Wire Wire Line
+	8100 2800 7250 2800
+Connection ~ 8950 2800
+Wire Wire Line
+	8950 2800 8100 2800
+Connection ~ 9800 2800
+Wire Wire Line
+	9800 2800 8950 2800
+Wire Wire Line
+	10650 2150 9800 2150
+Connection ~ 5550 2150
+Wire Wire Line
+	5550 2150 4700 2150
+Connection ~ 6400 2150
+Wire Wire Line
+	6400 2150 5550 2150
+Connection ~ 7250 2150
+Wire Wire Line
+	7250 2150 6400 2150
+Connection ~ 8100 2150
+Wire Wire Line
+	8100 2150 7250 2150
+Connection ~ 8950 2150
+Wire Wire Line
+	8950 2150 8100 2150
+Connection ~ 9800 2150
+Wire Wire Line
+	9800 2150 8950 2150
+Wire Wire Line
+	10650 1500 9800 1500
+Connection ~ 5550 1500
+Wire Wire Line
+	5550 1500 4700 1500
+Connection ~ 6400 1500
+Wire Wire Line
+	6400 1500 5550 1500
+Connection ~ 7250 1500
+Wire Wire Line
+	7250 1500 6400 1500
+Connection ~ 8100 1500
+Wire Wire Line
+	8100 1500 7250 1500
+Connection ~ 8950 1500
+Wire Wire Line
+	8950 1500 8100 1500
+Connection ~ 9800 1500
+Wire Wire Line
+	9800 1500 8950 1500
+Wire Wire Line
+	4950 5750 4950 5100
+Connection ~ 4950 1200
+Wire Wire Line
+	4950 1200 4950 850 
+Connection ~ 4950 1850
+Wire Wire Line
+	4950 1850 4950 1200
+Connection ~ 4950 2500
+Wire Wire Line
+	4950 2500 4950 1850
+Connection ~ 4950 3150
+Wire Wire Line
+	4950 3150 4950 2500
+Connection ~ 4950 3800
+Wire Wire Line
+	4950 3800 4950 3150
+Connection ~ 4950 4450
+Wire Wire Line
+	4950 4450 4950 3800
+Connection ~ 4950 5100
+Wire Wire Line
+	4950 5100 4950 4450
+Wire Wire Line
+	5800 850  5800 1200
+Connection ~ 5800 1200
+Wire Wire Line
+	5800 1200 5800 1850
+Connection ~ 5800 1850
+Wire Wire Line
+	5800 1850 5800 2500
+Connection ~ 5800 2500
+Wire Wire Line
+	5800 2500 5800 3150
+Connection ~ 5800 3150
+Wire Wire Line
+	5800 3150 5800 3800
+Connection ~ 5800 3800
+Wire Wire Line
+	5800 3800 5800 4450
+Connection ~ 5800 4450
+Wire Wire Line
+	5800 4450 5800 5100
+Connection ~ 5800 5100
+Wire Wire Line
+	5800 5100 5800 5750
+Wire Wire Line
+	6650 5750 6650 5100
+Connection ~ 6650 1200
+Wire Wire Line
+	6650 1200 6650 850 
+Connection ~ 6650 1850
+Wire Wire Line
+	6650 1850 6650 1200
+Connection ~ 6650 2500
+Wire Wire Line
+	6650 2500 6650 1850
+Connection ~ 6650 3150
+Wire Wire Line
+	6650 3150 6650 2500
+Connection ~ 6650 3800
+Wire Wire Line
+	6650 3800 6650 3150
+Connection ~ 6650 4450
+Wire Wire Line
+	6650 4450 6650 3800
+Connection ~ 6650 5100
+Wire Wire Line
+	6650 5100 6650 4450
+Wire Wire Line
+	7500 850  7500 1200
+Connection ~ 7500 1200
+Wire Wire Line
+	7500 1200 7500 1850
+Connection ~ 7500 1850
+Wire Wire Line
+	7500 1850 7500 2500
+Connection ~ 7500 2500
+Wire Wire Line
+	7500 2500 7500 3150
+Connection ~ 7500 3150
+Wire Wire Line
+	7500 3150 7500 3800
+Connection ~ 7500 3800
+Wire Wire Line
+	7500 3800 7500 4450
+Connection ~ 7500 4450
+Wire Wire Line
+	7500 4450 7500 5100
+Connection ~ 7500 5100
+Wire Wire Line
+	7500 5100 7500 5750
+Wire Wire Line
+	8350 5750 8350 5100
+Connection ~ 8350 1200
+Wire Wire Line
+	8350 1200 8350 850 
+Connection ~ 8350 1850
+Wire Wire Line
+	8350 1850 8350 1200
+Connection ~ 8350 2500
+Wire Wire Line
+	8350 2500 8350 1850
+Connection ~ 8350 3150
+Wire Wire Line
+	8350 3150 8350 2500
+Connection ~ 8350 3800
+Wire Wire Line
+	8350 3800 8350 3150
+Connection ~ 8350 4450
+Wire Wire Line
+	8350 4450 8350 3800
+Connection ~ 8350 5100
+Wire Wire Line
+	8350 5100 8350 4450
+Wire Wire Line
+	9200 850  9200 1200
+Connection ~ 9200 1200
+Wire Wire Line
+	9200 1200 9200 1850
+Connection ~ 9200 1850
+Wire Wire Line
+	9200 1850 9200 2500
+Connection ~ 9200 2500
+Wire Wire Line
+	9200 2500 9200 3150
+Connection ~ 9200 3150
+Wire Wire Line
+	9200 3150 9200 3800
+Connection ~ 9200 3800
+Wire Wire Line
+	9200 3800 9200 4450
+Connection ~ 9200 4450
+Wire Wire Line
+	9200 4450 9200 5100
+Connection ~ 9200 5100
+Wire Wire Line
+	9200 5100 9200 5750
+Wire Wire Line
+	10050 5750 10050 5100
+Connection ~ 10050 1200
+Wire Wire Line
+	10050 1200 10050 850 
+Connection ~ 10050 1850
+Wire Wire Line
+	10050 1850 10050 1200
+Connection ~ 10050 2500
+Wire Wire Line
+	10050 2500 10050 1850
+Connection ~ 10050 3150
+Wire Wire Line
+	10050 3150 10050 2500
+Connection ~ 10050 3800
+Wire Wire Line
+	10050 3800 10050 3150
+Connection ~ 10050 4450
+Wire Wire Line
+	10050 4450 10050 3800
+Connection ~ 10050 5100
+Wire Wire Line
+	10050 5100 10050 4450
+Text GLabel 4950 850  1    50   Input ~ 0
+col0
+Text GLabel 5800 850  1    50   Input ~ 0
+col1
+Text GLabel 6650 850  1    50   Input ~ 0
+col2
+Text GLabel 7500 850  1    50   Input ~ 0
+col3
+Text GLabel 8350 850  1    50   Input ~ 0
+col4
+Text GLabel 9200 850  1    50   Input ~ 0
+col5
+Text GLabel 10050 850  1    50   Input ~ 0
+col6
+Text GLabel 4700 1500 0    50   Input ~ 0
+row0
+Text GLabel 4700 2150 0    50   Input ~ 0
+row1
+Text GLabel 4700 2800 0    50   Input ~ 0
+row2
+Text GLabel 4700 3450 0    50   Input ~ 0
+row3
+Text GLabel 4700 4100 0    50   Input ~ 0
+row4
+Text GLabel 4700 4750 0    50   Input ~ 0
+row5
+Text GLabel 4700 5400 0    50   Input ~ 0
+row6
+Text GLabel 4700 6050 0    50   Input ~ 0
+row7
+$Comp
+L kbd:SW_PUSH SW57
+U 1 1 5C75F64C
+P 5300 6950
+F 0 "SW57" H 5300 7205 50  0000 C CNN
+F 1 "SW_PUSH" H 5300 7114 50  0000 C CNN
+F 2 "eswai:SMD 2Pin 3X4MM Tactile Tact Push Button" H 5300 6950 50  0001 C CNN
+F 3 "" H 5300 6950 50  0000 C CNN
+	1    5300 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5C75FAE3
+P 5600 6950
+F 0 "#PWR04" H 5600 6700 50  0001 C CNN
+F 1 "GND" H 5605 6777 50  0000 C CNN
+F 2 "" H 5600 6950 50  0001 C CNN
+F 3 "" H 5600 6950 50  0001 C CNN
+	1    5600 6950
+	1    0    0    -1  
+$EndComp
+Text GLabel 5000 6950 0    50   Input ~ 0
+reset
+Text GLabel 3150 1200 2    50   Input ~ 0
+reset
+Text GLabel 1750 1100 0    50   Input ~ 0
+LED
+$Comp
+L power:GND #PWR02
+U 1 1 5C763938
+P 1150 1300
+F 0 "#PWR02" H 1150 1050 50  0001 C CNN
+F 1 "GND" H 1155 1127 50  0000 C CNN
+F 2 "" H 1150 1300 50  0001 C CNN
+F 3 "" H 1150 1300 50  0001 C CNN
+	1    1150 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5C763CF1
+P 3550 1100
+F 0 "#PWR01" H 3550 850 50  0001 C CNN
+F 1 "GND" H 3555 927 50  0000 C CNN
+F 2 "" H 3550 1100 50  0001 C CNN
+F 3 "" H 3550 1100 50  0001 C CNN
+	1    3550 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 1100 3550 1100
+Wire Wire Line
+	1750 1200 1150 1200
+Wire Wire Line
+	1150 1200 1150 1300
+Wire Wire Line
+	1750 1300 1150 1300
+Connection ~ 1150 1300
+Text GLabel 1750 1600 0    50   Input ~ 0
+col0
+Text GLabel 1750 1000 0    50   Input ~ 0
+row3
+Text GLabel 1750 1800 0    50   Input ~ 0
+row2
+Text GLabel 1750 1700 0    50   Input ~ 0
+row1
+Text GLabel 3150 2100 2    50   Input ~ 0
+row0
+Text GLabel 1750 1900 0    50   Input ~ 0
+col1
+Text GLabel 1750 2000 0    50   Input ~ 0
+col2
+Text GLabel 3150 2000 2    50   Input ~ 0
+col3
+Text GLabel 3150 1900 2    50   Input ~ 0
+col4
+Text GLabel 3150 1800 2    50   Input ~ 0
+col5
+Text GLabel 3150 1700 2    50   Input ~ 0
+col6
+Text GLabel 3150 1500 2    50   Input ~ 0
+row7
+Text GLabel 1750 2100 0    50   Input ~ 0
+row6
+Text GLabel 1750 1500 0    50   Input ~ 0
+row5
+Text GLabel 3150 1600 2    50   Input ~ 0
+row4
+NoConn ~ 3150 1000
+$Comp
+L power:VCC #PWR03
+U 1 1 5C78DACE
+P 3750 1300
+F 0 "#PWR03" H 3750 1150 50  0001 C CNN
+F 1 "VCC" H 3767 1473 50  0000 C CNN
+F 2 "" H 3750 1300 50  0001 C CNN
+F 3 "" H 3750 1300 50  0001 C CNN
+	1    3750 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 1300 3150 1300
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5C733F52
+P 22600 1250
+F 0 "J1" H 22680 1292 50  0000 L CNN
+F 1 "Conn_01x03" H 22680 1201 50  0000 L CNN
+F 2 "eswai:StripLED_rev" H 22600 1250 50  0001 C CNN
+F 3 "~" H 22600 1250 50  0001 C CNN
+	1    22600 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5C734847
+P 22400 1350
+F 0 "#PWR06" H 22400 1100 50  0001 C CNN
+F 1 "GND" H 22405 1177 50  0000 C CNN
+F 2 "" H 22400 1350 50  0001 C CNN
+F 3 "" H 22400 1350 50  0001 C CNN
+	1    22400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR05
+U 1 1 5C734A0B
+P 22400 1150
+F 0 "#PWR05" H 22400 1000 50  0001 C CNN
+F 1 "VCC" H 22417 1323 50  0000 C CNN
+F 2 "" H 22400 1150 50  0001 C CNN
+F 3 "" H 22400 1150 50  0001 C CNN
+	1    22400 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5C744C3E
+P 3025 2875
+F 0 "#FLG0101" H 3025 2950 50  0001 C CNN
+F 1 "PWR_FLAG" H 3025 3049 50  0000 C CNN
+F 2 "" H 3025 2875 50  0001 C CNN
+F 3 "~" H 3025 2875 50  0001 C CNN
+	1    3025 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5C744DCA
+P 3450 2875
+F 0 "#PWR0101" H 3450 2725 50  0001 C CNN
+F 1 "VCC" H 3467 3048 50  0000 C CNN
+F 2 "" H 3450 2875 50  0001 C CNN
+F 3 "" H 3450 2875 50  0001 C CNN
+	1    3450 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5C744F56
+P 3025 3025
+F 0 "#PWR0102" H 3025 2775 50  0001 C CNN
+F 1 "GND" H 3030 2852 50  0000 C CNN
+F 2 "" H 3025 3025 50  0001 C CNN
+F 3 "" H 3025 3025 50  0001 C CNN
+	1    3025 3025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3025 2875 3025 3025
+Wire Wire Line
+	3450 2875 3450 3025
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5C75BB71
+P 3450 3025
+F 0 "#FLG0102" H 3450 3100 50  0001 C CNN
+F 1 "PWR_FLAG" H 3450 3198 50  0000 C CNN
+F 2 "" H 3450 3025 50  0001 C CNN
+F 3 "~" H 3450 3025 50  0001 C CNN
+	1    3450 3025
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5C73CA7D
+P 1375 5200
+F 0 "H1" H 1475 5246 50  0000 L CNN
+F 1 "MountingHole" H 1475 5155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad" H 1375 5200 50  0001 C CNN
+F 3 "~" H 1375 5200 50  0001 C CNN
+	1    1375 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5C73CE6B
+P 1375 5450
+F 0 "H2" H 1475 5496 50  0000 L CNN
+F 1 "MountingHole" H 1475 5405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad" H 1375 5450 50  0001 C CNN
+F 3 "~" H 1375 5450 50  0001 C CNN
+	1    1375 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5C73D031
+P 1375 5675
+F 0 "H3" H 1475 5721 50  0000 L CNN
+F 1 "MountingHole" H 1475 5630 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad" H 1375 5675 50  0001 C CNN
+F 3 "~" H 1375 5675 50  0001 C CNN
+	1    1375 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5C73D037
+P 1375 5925
+F 0 "H4" H 1475 5971 50  0000 L CNN
+F 1 "MountingHole" H 1475 5880 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad" H 1375 5925 50  0001 C CNN
+F 3 "~" H 1375 5925 50  0001 C CNN
+	1    1375 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5C740BB1
+P 1375 6175
+F 0 "H5" H 1475 6221 50  0000 L CNN
+F 1 "MountingHole" H 1475 6130 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad" H 1375 6175 50  0001 C CNN
+F 3 "~" H 1375 6175 50  0001 C CNN
+	1    1375 6175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5C740BB7
+P 1375 6425
+F 0 "H6" H 1475 6471 50  0000 L CNN
+F 1 "MountingHole" H 1475 6380 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad" H 1375 6425 50  0001 C CNN
+F 3 "~" H 1375 6425 50  0001 C CNN
+	1    1375 6425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5C740BBD
+P 1375 6650
+F 0 "H7" H 1475 6696 50  0000 L CNN
+F 1 "MountingHole" H 1475 6605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad" H 1375 6650 50  0001 C CNN
+F 3 "~" H 1375 6650 50  0001 C CNN
+	1    1375 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5C740BC3
+P 1375 6900
+F 0 "H8" H 1475 6946 50  0000 L CNN
+F 1 "MountingHole" H 1475 6855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad" H 1375 6900 50  0001 C CNN
+F 3 "~" H 1375 6900 50  0001 C CNN
+	1    1375 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L4
+U 1 1 5D7C1F4A
+P 12500 3000
+F 0 "L4" H 12500 3262 51  0000 C CNN
+F 1 "SK6812MINI" H 12500 3197 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 12500 3000 60  0001 C CNN
+F 3 "" H 12500 3000 60  0001 C CNN
+	1    12500 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L3
+U 1 1 5D7C285B
+P 12500 2400
+F 0 "L3" H 12500 2662 51  0000 C CNN
+F 1 "SK6812MINI" H 12500 2597 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 12500 2400 60  0001 C CNN
+F 3 "" H 12500 2400 60  0001 C CNN
+	1    12500 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L2
+U 1 1 5D7C639D
+P 12500 1800
+F 0 "L2" H 12500 2062 51  0000 C CNN
+F 1 "SK6812MINI" H 12500 1997 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 12500 1800 60  0001 C CNN
+F 3 "" H 12500 1800 60  0001 C CNN
+	1    12500 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L1
+U 1 1 5D7C63A3
+P 12500 1200
+F 0 "L1" H 12500 1462 51  0000 C CNN
+F 1 "SK6812MINI" H 12500 1397 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 12500 1200 60  0001 C CNN
+F 3 "" H 12500 1200 60  0001 C CNN
+	1    12500 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L5
+U 1 1 5D7CAAFD
+P 13150 1200
+F 0 "L5" H 13150 1462 51  0000 C CNN
+F 1 "SK6812MINI" H 13150 1397 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 13150 1200 60  0001 C CNN
+F 3 "" H 13150 1200 60  0001 C CNN
+	1    13150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L6
+U 1 1 5D7CAB03
+P 13150 1800
+F 0 "L6" H 13150 2062 51  0000 C CNN
+F 1 "SK6812MINI" H 13150 1997 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 13150 1800 60  0001 C CNN
+F 3 "" H 13150 1800 60  0001 C CNN
+	1    13150 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L7
+U 1 1 5D7CAB09
+P 13150 2400
+F 0 "L7" H 13150 2662 51  0000 C CNN
+F 1 "SK6812MINI" H 13150 2597 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 13150 2400 60  0001 C CNN
+F 3 "" H 13150 2400 60  0001 C CNN
+	1    13150 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L8
+U 1 1 5D7CAB0F
+P 13150 3000
+F 0 "L8" H 13150 3262 51  0000 C CNN
+F 1 "SK6812MINI" H 13150 3197 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 13150 3000 60  0001 C CNN
+F 3 "" H 13150 3000 60  0001 C CNN
+	1    13150 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12700 1300 12700 1550
+Wire Wire Line
+	12700 1550 12300 1550
+Wire Wire Line
+	12300 1550 12300 1700
+Wire Wire Line
+	12700 1900 12700 2150
+Wire Wire Line
+	12700 2150 12300 2150
+Wire Wire Line
+	12300 2150 12300 2300
+Wire Wire Line
+	12700 2500 12700 2750
+Wire Wire Line
+	12700 2750 12300 2750
+Wire Wire Line
+	12300 2750 12300 2900
+Wire Wire Line
+	12950 2900 12950 2650
+Wire Wire Line
+	12950 2650 13350 2650
+Wire Wire Line
+	13350 2650 13350 2500
+Wire Wire Line
+	12950 2300 12950 2050
+Wire Wire Line
+	12950 2050 13350 2050
+Wire Wire Line
+	13350 2050 13350 1900
+Wire Wire Line
+	12950 1700 12950 1450
+Wire Wire Line
+	12950 1450 13350 1450
+Wire Wire Line
+	13350 1450 13350 1300
+Wire Wire Line
+	12700 3100 12700 3250
+Wire Wire Line
+	12700 3250 13350 3250
+Wire Wire Line
+	13350 3250 13350 3100
+Wire Wire Line
+	12700 1100 12800 1100
+Wire Wire Line
+	12800 1100 12800 1300
+Wire Wire Line
+	12950 3100 12800 3100
+Connection ~ 12800 3100
+Wire Wire Line
+	12800 3100 12800 3350
+Wire Wire Line
+	12700 2900 12800 2900
+Connection ~ 12800 2900
+Wire Wire Line
+	12800 2900 12800 3100
+Wire Wire Line
+	12700 2300 12800 2300
+Connection ~ 12800 2300
+Wire Wire Line
+	12800 2300 12800 2500
+Wire Wire Line
+	12950 2500 12800 2500
+Connection ~ 12800 2500
+Wire Wire Line
+	12800 2500 12800 2900
+Wire Wire Line
+	12950 1900 12800 1900
+Connection ~ 12800 1900
+Wire Wire Line
+	12800 1900 12800 2300
+Wire Wire Line
+	12700 1700 12800 1700
+Connection ~ 12800 1700
+Wire Wire Line
+	12800 1700 12800 1900
+Wire Wire Line
+	12950 1300 12800 1300
+Connection ~ 12800 1300
+Wire Wire Line
+	12800 1300 12800 1700
+Wire Wire Line
+	13450 900  13450 1100
+Wire Wire Line
+	13450 2900 13350 2900
+Wire Wire Line
+	13350 2300 13450 2300
+Connection ~ 13450 2300
+Wire Wire Line
+	13450 2300 13450 2900
+Wire Wire Line
+	13350 1700 13450 1700
+Connection ~ 13450 1700
+Wire Wire Line
+	13450 1700 13450 2300
+Wire Wire Line
+	13350 1100 13450 1100
+Connection ~ 13450 1100
+Wire Wire Line
+	13450 1100 13450 1700
+Wire Wire Line
+	12300 3100 12200 3100
+Wire Wire Line
+	12200 3100 12200 2500
+Wire Wire Line
+	12300 1300 12200 1300
+Connection ~ 12200 1300
+Wire Wire Line
+	12200 1300 12200 900 
+Wire Wire Line
+	12300 1900 12200 1900
+Connection ~ 12200 1900
+Wire Wire Line
+	12200 1900 12200 1300
+Wire Wire Line
+	12300 2500 12200 2500
+Connection ~ 12200 2500
+Wire Wire Line
+	12200 2500 12200 1900
+$Comp
+L kbd:SK6812MINI L12
+U 1 1 5D857D09
+P 13900 3000
+F 0 "L12" H 13900 3262 51  0000 C CNN
+F 1 "SK6812MINI" H 13900 3197 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 13900 3000 60  0001 C CNN
+F 3 "" H 13900 3000 60  0001 C CNN
+	1    13900 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L11
+U 1 1 5D857D0F
+P 13900 2400
+F 0 "L11" H 13900 2662 51  0000 C CNN
+F 1 "SK6812MINI" H 13900 2597 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 13900 2400 60  0001 C CNN
+F 3 "" H 13900 2400 60  0001 C CNN
+	1    13900 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L10
+U 1 1 5D857D15
+P 13900 1800
+F 0 "L10" H 13900 2062 51  0000 C CNN
+F 1 "SK6812MINI" H 13900 1997 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 13900 1800 60  0001 C CNN
+F 3 "" H 13900 1800 60  0001 C CNN
+	1    13900 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L9
+U 1 1 5D857D1B
+P 13900 1200
+F 0 "L9" H 13900 1462 51  0000 C CNN
+F 1 "SK6812MINI" H 13900 1397 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 13900 1200 60  0001 C CNN
+F 3 "" H 13900 1200 60  0001 C CNN
+	1    13900 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L13
+U 1 1 5D857D21
+P 14550 1200
+F 0 "L13" H 14550 1462 51  0000 C CNN
+F 1 "SK6812MINI" H 14550 1397 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 14550 1200 60  0001 C CNN
+F 3 "" H 14550 1200 60  0001 C CNN
+	1    14550 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L14
+U 1 1 5D857D27
+P 14550 1800
+F 0 "L14" H 14550 2062 51  0000 C CNN
+F 1 "SK6812MINI" H 14550 1997 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 14550 1800 60  0001 C CNN
+F 3 "" H 14550 1800 60  0001 C CNN
+	1    14550 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L15
+U 1 1 5D857D2D
+P 14550 2400
+F 0 "L15" H 14550 2662 51  0000 C CNN
+F 1 "SK6812MINI" H 14550 2597 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 14550 2400 60  0001 C CNN
+F 3 "" H 14550 2400 60  0001 C CNN
+	1    14550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L16
+U 1 1 5D857D33
+P 14550 3000
+F 0 "L16" H 14550 3262 51  0000 C CNN
+F 1 "SK6812MINI" H 14550 3197 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 14550 3000 60  0001 C CNN
+F 3 "" H 14550 3000 60  0001 C CNN
+	1    14550 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 1300 14100 1550
+Wire Wire Line
+	14100 1550 13700 1550
+Wire Wire Line
+	13700 1550 13700 1700
+Wire Wire Line
+	14100 1900 14100 2150
+Wire Wire Line
+	14100 2150 13700 2150
+Wire Wire Line
+	13700 2150 13700 2300
+Wire Wire Line
+	14100 2500 14100 2750
+Wire Wire Line
+	14100 2750 13700 2750
+Wire Wire Line
+	13700 2750 13700 2900
+Wire Wire Line
+	14350 2900 14350 2650
+Wire Wire Line
+	14350 2650 14750 2650
+Wire Wire Line
+	14750 2650 14750 2500
+Wire Wire Line
+	14350 2300 14350 2050
+Wire Wire Line
+	14350 2050 14750 2050
+Wire Wire Line
+	14750 2050 14750 1900
+Wire Wire Line
+	14350 1700 14350 1450
+Wire Wire Line
+	14350 1450 14750 1450
+Wire Wire Line
+	14750 1450 14750 1300
+Wire Wire Line
+	14100 3100 14100 3250
+Wire Wire Line
+	14100 3250 14750 3250
+Wire Wire Line
+	14750 3250 14750 3100
+Wire Wire Line
+	14100 1100 14200 1100
+Wire Wire Line
+	14200 1100 14200 1300
+Wire Wire Line
+	14350 3100 14200 3100
+Connection ~ 14200 3100
+Wire Wire Line
+	14200 3100 14200 3350
+Wire Wire Line
+	14100 2900 14200 2900
+Connection ~ 14200 2900
+Wire Wire Line
+	14200 2900 14200 3100
+Wire Wire Line
+	14100 2300 14200 2300
+Connection ~ 14200 2300
+Wire Wire Line
+	14200 2300 14200 2500
+Wire Wire Line
+	14350 2500 14200 2500
+Connection ~ 14200 2500
+Wire Wire Line
+	14200 2500 14200 2900
+Wire Wire Line
+	14350 1900 14200 1900
+Connection ~ 14200 1900
+Wire Wire Line
+	14200 1900 14200 2300
+Wire Wire Line
+	14100 1700 14200 1700
+Connection ~ 14200 1700
+Wire Wire Line
+	14200 1700 14200 1900
+Wire Wire Line
+	14350 1300 14200 1300
+Connection ~ 14200 1300
+Wire Wire Line
+	14200 1300 14200 1700
+Wire Wire Line
+	14850 900  14850 1100
+Wire Wire Line
+	14850 2900 14750 2900
+Wire Wire Line
+	14750 2300 14850 2300
+Connection ~ 14850 2300
+Wire Wire Line
+	14850 2300 14850 2900
+Wire Wire Line
+	14750 1700 14850 1700
+Connection ~ 14850 1700
+Wire Wire Line
+	14850 1700 14850 2300
+Wire Wire Line
+	14750 1100 14850 1100
+Connection ~ 14850 1100
+Wire Wire Line
+	14850 1100 14850 1700
+Wire Wire Line
+	13700 3100 13600 3100
+Wire Wire Line
+	13600 3100 13600 2500
+Wire Wire Line
+	13700 1300 13600 1300
+Connection ~ 13600 1300
+Wire Wire Line
+	13600 1300 13600 900 
+Wire Wire Line
+	13700 1900 13600 1900
+Connection ~ 13600 1900
+Wire Wire Line
+	13600 1900 13600 1300
+Wire Wire Line
+	13700 2500 13600 2500
+Connection ~ 13600 2500
+Wire Wire Line
+	13600 2500 13600 1900
+$Comp
+L kbd:SK6812MINI L20
+U 1 1 5D863176
+P 15300 3000
+F 0 "L20" H 15300 3262 51  0000 C CNN
+F 1 "SK6812MINI" H 15300 3197 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 15300 3000 60  0001 C CNN
+F 3 "" H 15300 3000 60  0001 C CNN
+	1    15300 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L19
+U 1 1 5D86317C
+P 15300 2400
+F 0 "L19" H 15300 2662 51  0000 C CNN
+F 1 "SK6812MINI" H 15300 2597 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 15300 2400 60  0001 C CNN
+F 3 "" H 15300 2400 60  0001 C CNN
+	1    15300 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L18
+U 1 1 5D863182
+P 15300 1800
+F 0 "L18" H 15300 2062 51  0000 C CNN
+F 1 "SK6812MINI" H 15300 1997 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 15300 1800 60  0001 C CNN
+F 3 "" H 15300 1800 60  0001 C CNN
+	1    15300 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L17
+U 1 1 5D863188
+P 15300 1200
+F 0 "L17" H 15300 1462 51  0000 C CNN
+F 1 "SK6812MINI" H 15300 1397 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 15300 1200 60  0001 C CNN
+F 3 "" H 15300 1200 60  0001 C CNN
+	1    15300 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L21
+U 1 1 5D86318E
+P 15950 1200
+F 0 "L21" H 15950 1462 51  0000 C CNN
+F 1 "SK6812MINI" H 15950 1397 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 15950 1200 60  0001 C CNN
+F 3 "" H 15950 1200 60  0001 C CNN
+	1    15950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L22
+U 1 1 5D863194
+P 15950 1800
+F 0 "L22" H 15950 2062 51  0000 C CNN
+F 1 "SK6812MINI" H 15950 1997 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 15950 1800 60  0001 C CNN
+F 3 "" H 15950 1800 60  0001 C CNN
+	1    15950 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L23
+U 1 1 5D86319A
+P 15950 2400
+F 0 "L23" H 15950 2662 51  0000 C CNN
+F 1 "SK6812MINI" H 15950 2597 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 15950 2400 60  0001 C CNN
+F 3 "" H 15950 2400 60  0001 C CNN
+	1    15950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L24
+U 1 1 5D8631A0
+P 15950 3000
+F 0 "L24" H 15950 3262 51  0000 C CNN
+F 1 "SK6812MINI" H 15950 3197 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 15950 3000 60  0001 C CNN
+F 3 "" H 15950 3000 60  0001 C CNN
+	1    15950 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15500 1300 15500 1550
+Wire Wire Line
+	15500 1550 15100 1550
+Wire Wire Line
+	15100 1550 15100 1700
+Wire Wire Line
+	15500 1900 15500 2150
+Wire Wire Line
+	15500 2150 15100 2150
+Wire Wire Line
+	15100 2150 15100 2300
+Wire Wire Line
+	15500 2500 15500 2750
+Wire Wire Line
+	15500 2750 15100 2750
+Wire Wire Line
+	15100 2750 15100 2900
+Wire Wire Line
+	15750 2900 15750 2650
+Wire Wire Line
+	15750 2650 16150 2650
+Wire Wire Line
+	16150 2650 16150 2500
+Wire Wire Line
+	15750 2300 15750 2050
+Wire Wire Line
+	15750 2050 16150 2050
+Wire Wire Line
+	16150 2050 16150 1900
+Wire Wire Line
+	15750 1700 15750 1450
+Wire Wire Line
+	15750 1450 16150 1450
+Wire Wire Line
+	16150 1450 16150 1300
+Wire Wire Line
+	15500 3100 15500 3250
+Wire Wire Line
+	15500 3250 16150 3250
+Wire Wire Line
+	16150 3250 16150 3100
+Wire Wire Line
+	15500 1100 15600 1100
+Wire Wire Line
+	15600 1100 15600 1300
+Wire Wire Line
+	15750 3100 15600 3100
+Connection ~ 15600 3100
+Wire Wire Line
+	15600 3100 15600 3350
+Wire Wire Line
+	15500 2900 15600 2900
+Connection ~ 15600 2900
+Wire Wire Line
+	15600 2900 15600 3100
+Wire Wire Line
+	15500 2300 15600 2300
+Connection ~ 15600 2300
+Wire Wire Line
+	15600 2300 15600 2500
+Wire Wire Line
+	15750 2500 15600 2500
+Connection ~ 15600 2500
+Wire Wire Line
+	15600 2500 15600 2900
+Wire Wire Line
+	15750 1900 15600 1900
+Connection ~ 15600 1900
+Wire Wire Line
+	15600 1900 15600 2300
+Wire Wire Line
+	15500 1700 15600 1700
+Connection ~ 15600 1700
+Wire Wire Line
+	15600 1700 15600 1900
+Wire Wire Line
+	15750 1300 15600 1300
+Connection ~ 15600 1300
+Wire Wire Line
+	15600 1300 15600 1700
+Wire Wire Line
+	16250 900  16250 1100
+Wire Wire Line
+	16250 2900 16150 2900
+Wire Wire Line
+	16150 2300 16250 2300
+Connection ~ 16250 2300
+Wire Wire Line
+	16250 2300 16250 2900
+Wire Wire Line
+	16150 1700 16250 1700
+Connection ~ 16250 1700
+Wire Wire Line
+	16250 1700 16250 2300
+Wire Wire Line
+	16150 1100 16250 1100
+Connection ~ 16250 1100
+Wire Wire Line
+	16250 1100 16250 1700
+Wire Wire Line
+	15100 3100 15000 3100
+Wire Wire Line
+	15000 3100 15000 2500
+Wire Wire Line
+	15100 1300 15000 1300
+Connection ~ 15000 1300
+Wire Wire Line
+	15000 1300 15000 900 
+Wire Wire Line
+	15100 1900 15000 1900
+Connection ~ 15000 1900
+Wire Wire Line
+	15000 1900 15000 1300
+Wire Wire Line
+	15100 2500 15000 2500
+Connection ~ 15000 2500
+Wire Wire Line
+	15000 2500 15000 1900
+$Comp
+L kbd:SK6812MINI L28
+U 1 1 5D8631E8
+P 16700 3000
+F 0 "L28" H 16700 3262 51  0000 C CNN
+F 1 "SK6812MINI" H 16700 3197 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 16700 3000 60  0001 C CNN
+F 3 "" H 16700 3000 60  0001 C CNN
+	1    16700 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L27
+U 1 1 5D8631EE
+P 16700 2400
+F 0 "L27" H 16700 2662 51  0000 C CNN
+F 1 "SK6812MINI" H 16700 2597 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 16700 2400 60  0001 C CNN
+F 3 "" H 16700 2400 60  0001 C CNN
+	1    16700 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L26
+U 1 1 5D8631F4
+P 16700 1800
+F 0 "L26" H 16700 2062 51  0000 C CNN
+F 1 "SK6812MINI" H 16700 1997 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 16700 1800 60  0001 C CNN
+F 3 "" H 16700 1800 60  0001 C CNN
+	1    16700 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L25
+U 1 1 5D8631FA
+P 16700 1200
+F 0 "L25" H 16700 1462 51  0000 C CNN
+F 1 "SK6812MINI" H 16700 1397 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 16700 1200 60  0001 C CNN
+F 3 "" H 16700 1200 60  0001 C CNN
+	1    16700 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L29
+U 1 1 5D863200
+P 17350 1200
+F 0 "L29" H 17350 1462 51  0000 C CNN
+F 1 "SK6812MINI" H 17350 1397 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 17350 1200 60  0001 C CNN
+F 3 "" H 17350 1200 60  0001 C CNN
+	1    17350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L30
+U 1 1 5D863206
+P 17350 1800
+F 0 "L30" H 17350 2062 51  0000 C CNN
+F 1 "SK6812MINI" H 17350 1997 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 17350 1800 60  0001 C CNN
+F 3 "" H 17350 1800 60  0001 C CNN
+	1    17350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L31
+U 1 1 5D86320C
+P 17350 2400
+F 0 "L31" H 17350 2662 51  0000 C CNN
+F 1 "SK6812MINI" H 17350 2597 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 17350 2400 60  0001 C CNN
+F 3 "" H 17350 2400 60  0001 C CNN
+	1    17350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L32
+U 1 1 5D863212
+P 17350 3000
+F 0 "L32" H 17350 3262 51  0000 C CNN
+F 1 "SK6812MINI" H 17350 3197 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 17350 3000 60  0001 C CNN
+F 3 "" H 17350 3000 60  0001 C CNN
+	1    17350 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16900 1300 16900 1550
+Wire Wire Line
+	16900 1550 16500 1550
+Wire Wire Line
+	16500 1550 16500 1700
+Wire Wire Line
+	16900 1900 16900 2150
+Wire Wire Line
+	16900 2150 16500 2150
+Wire Wire Line
+	16500 2150 16500 2300
+Wire Wire Line
+	16900 2500 16900 2750
+Wire Wire Line
+	16900 2750 16500 2750
+Wire Wire Line
+	16500 2750 16500 2900
+Wire Wire Line
+	17150 2900 17150 2650
+Wire Wire Line
+	17150 2650 17550 2650
+Wire Wire Line
+	17550 2650 17550 2500
+Wire Wire Line
+	17150 2300 17150 2050
+Wire Wire Line
+	17150 2050 17550 2050
+Wire Wire Line
+	17550 2050 17550 1900
+Wire Wire Line
+	17150 1700 17150 1450
+Wire Wire Line
+	17150 1450 17550 1450
+Wire Wire Line
+	17550 1450 17550 1300
+Wire Wire Line
+	16900 3100 16900 3250
+Wire Wire Line
+	16900 3250 17550 3250
+Wire Wire Line
+	17550 3250 17550 3100
+Wire Wire Line
+	16900 1100 17000 1100
+Wire Wire Line
+	17000 1100 17000 1300
+Wire Wire Line
+	17150 3100 17000 3100
+Connection ~ 17000 3100
+Wire Wire Line
+	17000 3100 17000 3350
+Wire Wire Line
+	16900 2900 17000 2900
+Connection ~ 17000 2900
+Wire Wire Line
+	17000 2900 17000 3100
+Wire Wire Line
+	16900 2300 17000 2300
+Connection ~ 17000 2300
+Wire Wire Line
+	17000 2300 17000 2500
+Wire Wire Line
+	17150 2500 17000 2500
+Connection ~ 17000 2500
+Wire Wire Line
+	17000 2500 17000 2900
+Wire Wire Line
+	17150 1900 17000 1900
+Connection ~ 17000 1900
+Wire Wire Line
+	17000 1900 17000 2300
+Wire Wire Line
+	16900 1700 17000 1700
+Connection ~ 17000 1700
+Wire Wire Line
+	17000 1700 17000 1900
+Wire Wire Line
+	17150 1300 17000 1300
+Connection ~ 17000 1300
+Wire Wire Line
+	17000 1300 17000 1700
+Wire Wire Line
+	17650 900  17650 1100
+Wire Wire Line
+	17650 2900 17550 2900
+Wire Wire Line
+	17550 2300 17650 2300
+Connection ~ 17650 2300
+Wire Wire Line
+	17650 2300 17650 2900
+Wire Wire Line
+	17550 1700 17650 1700
+Connection ~ 17650 1700
+Wire Wire Line
+	17650 1700 17650 2300
+Wire Wire Line
+	17550 1100 17650 1100
+Connection ~ 17650 1100
+Wire Wire Line
+	17650 1100 17650 1700
+Wire Wire Line
+	16500 3100 16400 3100
+Wire Wire Line
+	16400 3100 16400 2500
+Wire Wire Line
+	16500 1300 16400 1300
+Connection ~ 16400 1300
+Wire Wire Line
+	16400 1300 16400 900 
+Wire Wire Line
+	16500 1900 16400 1900
+Connection ~ 16400 1900
+Wire Wire Line
+	16400 1900 16400 1300
+Wire Wire Line
+	16500 2500 16400 2500
+Connection ~ 16400 2500
+Wire Wire Line
+	16400 2500 16400 1900
+$Comp
+L kbd:SK6812MINI L36
+U 1 1 5D87A080
+P 18100 3000
+F 0 "L36" H 18100 3262 51  0000 C CNN
+F 1 "SK6812MINI" H 18100 3197 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 18100 3000 60  0001 C CNN
+F 3 "" H 18100 3000 60  0001 C CNN
+	1    18100 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L35
+U 1 1 5D87A086
+P 18100 2400
+F 0 "L35" H 18100 2662 51  0000 C CNN
+F 1 "SK6812MINI" H 18100 2597 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 18100 2400 60  0001 C CNN
+F 3 "" H 18100 2400 60  0001 C CNN
+	1    18100 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L34
+U 1 1 5D87A08C
+P 18100 1800
+F 0 "L34" H 18100 2062 51  0000 C CNN
+F 1 "SK6812MINI" H 18100 1997 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 18100 1800 60  0001 C CNN
+F 3 "" H 18100 1800 60  0001 C CNN
+	1    18100 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L33
+U 1 1 5D87A092
+P 18100 1200
+F 0 "L33" H 18100 1462 51  0000 C CNN
+F 1 "SK6812MINI" H 18100 1397 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 18100 1200 60  0001 C CNN
+F 3 "" H 18100 1200 60  0001 C CNN
+	1    18100 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L37
+U 1 1 5D87A098
+P 18750 1200
+F 0 "L37" H 18750 1462 51  0000 C CNN
+F 1 "SK6812MINI" H 18750 1397 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 18750 1200 60  0001 C CNN
+F 3 "" H 18750 1200 60  0001 C CNN
+	1    18750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L38
+U 1 1 5D87A09E
+P 18750 1800
+F 0 "L38" H 18750 2062 51  0000 C CNN
+F 1 "SK6812MINI" H 18750 1997 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 18750 1800 60  0001 C CNN
+F 3 "" H 18750 1800 60  0001 C CNN
+	1    18750 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L39
+U 1 1 5D87A0A4
+P 18750 2400
+F 0 "L39" H 18750 2662 51  0000 C CNN
+F 1 "SK6812MINI" H 18750 2597 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 18750 2400 60  0001 C CNN
+F 3 "" H 18750 2400 60  0001 C CNN
+	1    18750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L40
+U 1 1 5D87A0AA
+P 18750 3000
+F 0 "L40" H 18750 3262 51  0000 C CNN
+F 1 "SK6812MINI" H 18750 3197 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 18750 3000 60  0001 C CNN
+F 3 "" H 18750 3000 60  0001 C CNN
+	1    18750 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18300 1300 18300 1550
+Wire Wire Line
+	18300 1550 17900 1550
+Wire Wire Line
+	17900 1550 17900 1700
+Wire Wire Line
+	18300 1900 18300 2150
+Wire Wire Line
+	18300 2150 17900 2150
+Wire Wire Line
+	17900 2150 17900 2300
+Wire Wire Line
+	18300 2500 18300 2750
+Wire Wire Line
+	18300 2750 17900 2750
+Wire Wire Line
+	17900 2750 17900 2900
+Wire Wire Line
+	18550 2900 18550 2650
+Wire Wire Line
+	18550 2650 18950 2650
+Wire Wire Line
+	18950 2650 18950 2500
+Wire Wire Line
+	18550 2300 18550 2050
+Wire Wire Line
+	18550 2050 18950 2050
+Wire Wire Line
+	18950 2050 18950 1900
+Wire Wire Line
+	18550 1700 18550 1450
+Wire Wire Line
+	18550 1450 18950 1450
+Wire Wire Line
+	18950 1450 18950 1300
+Wire Wire Line
+	18300 3100 18300 3250
+Wire Wire Line
+	18300 3250 18950 3250
+Wire Wire Line
+	18950 3250 18950 3100
+Wire Wire Line
+	18300 1100 18400 1100
+Wire Wire Line
+	18400 1100 18400 1300
+Wire Wire Line
+	18550 3100 18400 3100
+Connection ~ 18400 3100
+Wire Wire Line
+	18400 3100 18400 3350
+Wire Wire Line
+	18300 2900 18400 2900
+Connection ~ 18400 2900
+Wire Wire Line
+	18400 2900 18400 3100
+Wire Wire Line
+	18300 2300 18400 2300
+Connection ~ 18400 2300
+Wire Wire Line
+	18400 2300 18400 2500
+Wire Wire Line
+	18550 2500 18400 2500
+Connection ~ 18400 2500
+Wire Wire Line
+	18400 2500 18400 2900
+Wire Wire Line
+	18550 1900 18400 1900
+Connection ~ 18400 1900
+Wire Wire Line
+	18400 1900 18400 2300
+Wire Wire Line
+	18300 1700 18400 1700
+Connection ~ 18400 1700
+Wire Wire Line
+	18400 1700 18400 1900
+Wire Wire Line
+	18550 1300 18400 1300
+Connection ~ 18400 1300
+Wire Wire Line
+	18400 1300 18400 1700
+Wire Wire Line
+	19050 900  19050 1100
+Wire Wire Line
+	19050 2900 18950 2900
+Wire Wire Line
+	18950 2300 19050 2300
+Connection ~ 19050 2300
+Wire Wire Line
+	19050 2300 19050 2900
+Wire Wire Line
+	18950 1700 19050 1700
+Connection ~ 19050 1700
+Wire Wire Line
+	19050 1700 19050 2300
+Wire Wire Line
+	18950 1100 19050 1100
+Connection ~ 19050 1100
+Wire Wire Line
+	19050 1100 19050 1700
+Wire Wire Line
+	17900 3100 17800 3100
+Wire Wire Line
+	17800 3100 17800 2500
+Wire Wire Line
+	17900 1300 17800 1300
+Connection ~ 17800 1300
+Wire Wire Line
+	17800 1300 17800 900 
+Wire Wire Line
+	17900 1900 17800 1900
+Connection ~ 17800 1900
+Wire Wire Line
+	17800 1900 17800 1300
+Wire Wire Line
+	17900 2500 17800 2500
+Connection ~ 17800 2500
+Wire Wire Line
+	17800 2500 17800 1900
+$Comp
+L kbd:SK6812MINI L44
+U 1 1 5D87A0F2
+P 19500 3000
+F 0 "L44" H 19500 3262 51  0000 C CNN
+F 1 "SK6812MINI" H 19500 3197 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 19500 3000 60  0001 C CNN
+F 3 "" H 19500 3000 60  0001 C CNN
+	1    19500 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L43
+U 1 1 5D87A0F8
+P 19500 2400
+F 0 "L43" H 19500 2662 51  0000 C CNN
+F 1 "SK6812MINI" H 19500 2597 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 19500 2400 60  0001 C CNN
+F 3 "" H 19500 2400 60  0001 C CNN
+	1    19500 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L42
+U 1 1 5D87A0FE
+P 19500 1800
+F 0 "L42" H 19500 2062 51  0000 C CNN
+F 1 "SK6812MINI" H 19500 1997 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 19500 1800 60  0001 C CNN
+F 3 "" H 19500 1800 60  0001 C CNN
+	1    19500 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L41
+U 1 1 5D87A104
+P 19500 1200
+F 0 "L41" H 19500 1462 51  0000 C CNN
+F 1 "SK6812MINI" H 19500 1397 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 19500 1200 60  0001 C CNN
+F 3 "" H 19500 1200 60  0001 C CNN
+	1    19500 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L45
+U 1 1 5D87A10A
+P 20150 1200
+F 0 "L45" H 20150 1462 51  0000 C CNN
+F 1 "SK6812MINI" H 20150 1397 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 20150 1200 60  0001 C CNN
+F 3 "" H 20150 1200 60  0001 C CNN
+	1    20150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L46
+U 1 1 5D87A110
+P 20150 1800
+F 0 "L46" H 20150 2062 51  0000 C CNN
+F 1 "SK6812MINI" H 20150 1997 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 20150 1800 60  0001 C CNN
+F 3 "" H 20150 1800 60  0001 C CNN
+	1    20150 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L47
+U 1 1 5D87A116
+P 20150 2400
+F 0 "L47" H 20150 2662 51  0000 C CNN
+F 1 "SK6812MINI" H 20150 2597 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 20150 2400 60  0001 C CNN
+F 3 "" H 20150 2400 60  0001 C CNN
+	1    20150 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L48
+U 1 1 5D87A11C
+P 20150 3000
+F 0 "L48" H 20150 3262 51  0000 C CNN
+F 1 "SK6812MINI" H 20150 3197 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 20150 3000 60  0001 C CNN
+F 3 "" H 20150 3000 60  0001 C CNN
+	1    20150 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19700 1300 19700 1550
+Wire Wire Line
+	19700 1550 19300 1550
+Wire Wire Line
+	19300 1550 19300 1700
+Wire Wire Line
+	19700 1900 19700 2150
+Wire Wire Line
+	19700 2150 19300 2150
+Wire Wire Line
+	19300 2150 19300 2300
+Wire Wire Line
+	19700 2500 19700 2750
+Wire Wire Line
+	19700 2750 19300 2750
+Wire Wire Line
+	19300 2750 19300 2900
+Wire Wire Line
+	19950 2900 19950 2650
+Wire Wire Line
+	19950 2650 20350 2650
+Wire Wire Line
+	20350 2650 20350 2500
+Wire Wire Line
+	19950 2300 19950 2050
+Wire Wire Line
+	19950 2050 20350 2050
+Wire Wire Line
+	20350 2050 20350 1900
+Wire Wire Line
+	19950 1700 19950 1450
+Wire Wire Line
+	19950 1450 20350 1450
+Wire Wire Line
+	20350 1450 20350 1300
+Wire Wire Line
+	19700 3100 19700 3250
+Wire Wire Line
+	19700 3250 20350 3250
+Wire Wire Line
+	20350 3250 20350 3100
+Wire Wire Line
+	19700 1100 19800 1100
+Wire Wire Line
+	19800 1100 19800 1300
+Wire Wire Line
+	19950 3100 19800 3100
+Connection ~ 19800 3100
+Wire Wire Line
+	19800 3100 19800 3350
+Wire Wire Line
+	19700 2900 19800 2900
+Connection ~ 19800 2900
+Wire Wire Line
+	19800 2900 19800 3100
+Wire Wire Line
+	19700 2300 19800 2300
+Connection ~ 19800 2300
+Wire Wire Line
+	19800 2300 19800 2500
+Wire Wire Line
+	19950 2500 19800 2500
+Connection ~ 19800 2500
+Wire Wire Line
+	19800 2500 19800 2900
+Wire Wire Line
+	19950 1900 19800 1900
+Connection ~ 19800 1900
+Wire Wire Line
+	19800 1900 19800 2300
+Wire Wire Line
+	19700 1700 19800 1700
+Connection ~ 19800 1700
+Wire Wire Line
+	19800 1700 19800 1900
+Wire Wire Line
+	19950 1300 19800 1300
+Connection ~ 19800 1300
+Wire Wire Line
+	19800 1300 19800 1700
+Wire Wire Line
+	20450 900  20450 1100
+Wire Wire Line
+	20450 2900 20350 2900
+Wire Wire Line
+	20350 2300 20450 2300
+Connection ~ 20450 2300
+Wire Wire Line
+	20450 2300 20450 2900
+Wire Wire Line
+	20350 1700 20450 1700
+Connection ~ 20450 1700
+Wire Wire Line
+	20450 1700 20450 2300
+Wire Wire Line
+	20350 1100 20450 1100
+Connection ~ 20450 1100
+Wire Wire Line
+	20450 1100 20450 1700
+Wire Wire Line
+	19300 3100 19200 3100
+Wire Wire Line
+	19200 3100 19200 2500
+Wire Wire Line
+	19300 1300 19200 1300
+Connection ~ 19200 1300
+Wire Wire Line
+	19200 1300 19200 900 
+Wire Wire Line
+	19300 1900 19200 1900
+Connection ~ 19200 1900
+Wire Wire Line
+	19200 1900 19200 1300
+Wire Wire Line
+	19300 2500 19200 2500
+Connection ~ 19200 2500
+Wire Wire Line
+	19200 2500 19200 1900
+$Comp
+L kbd:SK6812MINI L52
+U 1 1 5D87A164
+P 20900 3000
+F 0 "L52" H 20900 3262 51  0000 C CNN
+F 1 "SK6812MINI" H 20900 3197 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 20900 3000 60  0001 C CNN
+F 3 "" H 20900 3000 60  0001 C CNN
+	1    20900 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L51
+U 1 1 5D87A16A
+P 20900 2400
+F 0 "L51" H 20900 2662 51  0000 C CNN
+F 1 "SK6812MINI" H 20900 2597 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 20900 2400 60  0001 C CNN
+F 3 "" H 20900 2400 60  0001 C CNN
+	1    20900 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L50
+U 1 1 5D87A170
+P 20900 1800
+F 0 "L50" H 20900 2062 51  0000 C CNN
+F 1 "SK6812MINI" H 20900 1997 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 20900 1800 60  0001 C CNN
+F 3 "" H 20900 1800 60  0001 C CNN
+	1    20900 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L49
+U 1 1 5D87A176
+P 20900 1200
+F 0 "L49" H 20900 1462 51  0000 C CNN
+F 1 "SK6812MINI" H 20900 1397 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 20900 1200 60  0001 C CNN
+F 3 "" H 20900 1200 60  0001 C CNN
+	1    20900 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L53
+U 1 1 5D87A17C
+P 21550 1200
+F 0 "L53" H 21550 1462 51  0000 C CNN
+F 1 "SK6812MINI" H 21550 1397 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 21550 1200 60  0001 C CNN
+F 3 "" H 21550 1200 60  0001 C CNN
+	1    21550 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L54
+U 1 1 5D87A182
+P 21550 1800
+F 0 "L54" H 21550 2062 51  0000 C CNN
+F 1 "SK6812MINI" H 21550 1997 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 21550 1800 60  0001 C CNN
+F 3 "" H 21550 1800 60  0001 C CNN
+	1    21550 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L55
+U 1 1 5D87A188
+P 21550 2400
+F 0 "L55" H 21550 2662 51  0000 C CNN
+F 1 "SK6812MINI" H 21550 2597 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 21550 2400 60  0001 C CNN
+F 3 "" H 21550 2400 60  0001 C CNN
+	1    21550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L56
+U 1 1 5D87A18E
+P 21550 3000
+F 0 "L56" H 21550 3262 51  0000 C CNN
+F 1 "SK6812MINI" H 21550 3197 16  0000 C CNN
+F 2 "eswai:SK6812MINI_rev" H 21550 3000 60  0001 C CNN
+F 3 "" H 21550 3000 60  0001 C CNN
+	1    21550 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21100 1300 21100 1550
+Wire Wire Line
+	21100 1550 20700 1550
+Wire Wire Line
+	20700 1550 20700 1700
+Wire Wire Line
+	21100 1900 21100 2150
+Wire Wire Line
+	21100 2150 20700 2150
+Wire Wire Line
+	20700 2150 20700 2300
+Wire Wire Line
+	21100 2500 21100 2750
+Wire Wire Line
+	21100 2750 20700 2750
+Wire Wire Line
+	20700 2750 20700 2900
+Wire Wire Line
+	21350 2900 21350 2650
+Wire Wire Line
+	21350 2650 21750 2650
+Wire Wire Line
+	21750 2650 21750 2500
+Wire Wire Line
+	21350 2300 21350 2050
+Wire Wire Line
+	21350 2050 21750 2050
+Wire Wire Line
+	21750 2050 21750 1900
+Wire Wire Line
+	21350 1700 21350 1450
+Wire Wire Line
+	21350 1450 21750 1450
+Wire Wire Line
+	21750 1450 21750 1300
+Wire Wire Line
+	21100 3100 21100 3250
+Wire Wire Line
+	21100 3250 21750 3250
+Wire Wire Line
+	21750 3250 21750 3100
+Wire Wire Line
+	21100 1100 21200 1100
+Wire Wire Line
+	21200 1100 21200 1300
+Wire Wire Line
+	21350 3100 21200 3100
+Connection ~ 21200 3100
+Wire Wire Line
+	21200 3100 21200 3350
+Wire Wire Line
+	21100 2900 21200 2900
+Connection ~ 21200 2900
+Wire Wire Line
+	21200 2900 21200 3100
+Wire Wire Line
+	21100 2300 21200 2300
+Connection ~ 21200 2300
+Wire Wire Line
+	21200 2300 21200 2500
+Wire Wire Line
+	21350 2500 21200 2500
+Connection ~ 21200 2500
+Wire Wire Line
+	21200 2500 21200 2900
+Wire Wire Line
+	21350 1900 21200 1900
+Connection ~ 21200 1900
+Wire Wire Line
+	21200 1900 21200 2300
+Wire Wire Line
+	21100 1700 21200 1700
+Connection ~ 21200 1700
+Wire Wire Line
+	21200 1700 21200 1900
+Wire Wire Line
+	21350 1300 21200 1300
+Connection ~ 21200 1300
+Wire Wire Line
+	21200 1300 21200 1700
+Wire Wire Line
+	21850 900  21850 1100
+Wire Wire Line
+	21850 2900 21750 2900
+Wire Wire Line
+	21750 2300 21850 2300
+Connection ~ 21850 2300
+Wire Wire Line
+	21850 2300 21850 2900
+Wire Wire Line
+	21750 1700 21850 1700
+Connection ~ 21850 1700
+Wire Wire Line
+	21850 1700 21850 2300
+Wire Wire Line
+	21750 1100 21850 1100
+Connection ~ 21850 1100
+Wire Wire Line
+	21850 1100 21850 1700
+Wire Wire Line
+	20700 3100 20600 3100
+Wire Wire Line
+	20600 3100 20600 2500
+Wire Wire Line
+	20700 1300 20600 1300
+Connection ~ 20600 1300
+Wire Wire Line
+	20600 1300 20600 900 
+Wire Wire Line
+	20700 1900 20600 1900
+Connection ~ 20600 1900
+Wire Wire Line
+	20600 1900 20600 1300
+Wire Wire Line
+	20700 2500 20600 2500
+Connection ~ 20600 2500
+Wire Wire Line
+	20600 2500 20600 1900
+$Comp
+L power:GND #PWR010
+U 1 1 5D9B99E9
+P 12800 3350
+F 0 "#PWR010" H 12800 3100 50  0001 C CNN
+F 1 "GND" H 12805 3177 50  0000 C CNN
+F 2 "" H 12800 3350 50  0001 C CNN
+F 3 "" H 12800 3350 50  0001 C CNN
+	1    12800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5D9BA066
+P 14200 3350
+F 0 "#PWR013" H 14200 3100 50  0001 C CNN
+F 1 "GND" H 14205 3177 50  0000 C CNN
+F 2 "" H 14200 3350 50  0001 C CNN
+F 3 "" H 14200 3350 50  0001 C CNN
+	1    14200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5D9BA2AB
+P 15600 3350
+F 0 "#PWR016" H 15600 3100 50  0001 C CNN
+F 1 "GND" H 15605 3177 50  0000 C CNN
+F 2 "" H 15600 3350 50  0001 C CNN
+F 3 "" H 15600 3350 50  0001 C CNN
+	1    15600 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 5D9BA4F0
+P 17000 3350
+F 0 "#PWR019" H 17000 3100 50  0001 C CNN
+F 1 "GND" H 17005 3177 50  0000 C CNN
+F 2 "" H 17000 3350 50  0001 C CNN
+F 3 "" H 17000 3350 50  0001 C CNN
+	1    17000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 5D9BA7E9
+P 18400 3350
+F 0 "#PWR022" H 18400 3100 50  0001 C CNN
+F 1 "GND" H 18405 3177 50  0000 C CNN
+F 2 "" H 18400 3350 50  0001 C CNN
+F 3 "" H 18400 3350 50  0001 C CNN
+	1    18400 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 5D9BAA2E
+P 19800 3350
+F 0 "#PWR025" H 19800 3100 50  0001 C CNN
+F 1 "GND" H 19805 3177 50  0000 C CNN
+F 2 "" H 19800 3350 50  0001 C CNN
+F 3 "" H 19800 3350 50  0001 C CNN
+	1    19800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR028
+U 1 1 5D9BAC73
+P 21200 3350
+F 0 "#PWR028" H 21200 3100 50  0001 C CNN
+F 1 "GND" H 21205 3177 50  0000 C CNN
+F 2 "" H 21200 3350 50  0001 C CNN
+F 3 "" H 21200 3350 50  0001 C CNN
+	1    21200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR09
+U 1 1 5D9BAEBF
+P 12200 900
+F 0 "#PWR09" H 12200 750 50  0001 C CNN
+F 1 "VCC" H 12217 1073 50  0000 C CNN
+F 2 "" H 12200 900 50  0001 C CNN
+F 3 "" H 12200 900 50  0001 C CNN
+	1    12200 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR011
+U 1 1 5D9BB1B8
+P 13450 900
+F 0 "#PWR011" H 13450 750 50  0001 C CNN
+F 1 "VCC" H 13467 1073 50  0000 C CNN
+F 2 "" H 13450 900 50  0001 C CNN
+F 3 "" H 13450 900 50  0001 C CNN
+	1    13450 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR012
+U 1 1 5D9BB619
+P 13600 900
+F 0 "#PWR012" H 13600 750 50  0001 C CNN
+F 1 "VCC" H 13617 1073 50  0000 C CNN
+F 2 "" H 13600 900 50  0001 C CNN
+F 3 "" H 13600 900 50  0001 C CNN
+	1    13600 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR014
+U 1 1 5D9BBA7A
+P 14850 900
+F 0 "#PWR014" H 14850 750 50  0001 C CNN
+F 1 "VCC" H 14867 1073 50  0000 C CNN
+F 2 "" H 14850 900 50  0001 C CNN
+F 3 "" H 14850 900 50  0001 C CNN
+	1    14850 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR015
+U 1 1 5D9BBCBF
+P 15000 900
+F 0 "#PWR015" H 15000 750 50  0001 C CNN
+F 1 "VCC" H 15017 1073 50  0000 C CNN
+F 2 "" H 15000 900 50  0001 C CNN
+F 3 "" H 15000 900 50  0001 C CNN
+	1    15000 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR017
+U 1 1 5D9BBF04
+P 16250 900
+F 0 "#PWR017" H 16250 750 50  0001 C CNN
+F 1 "VCC" H 16267 1073 50  0000 C CNN
+F 2 "" H 16250 900 50  0001 C CNN
+F 3 "" H 16250 900 50  0001 C CNN
+	1    16250 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR018
+U 1 1 5D9BC149
+P 16400 900
+F 0 "#PWR018" H 16400 750 50  0001 C CNN
+F 1 "VCC" H 16417 1073 50  0000 C CNN
+F 2 "" H 16400 900 50  0001 C CNN
+F 3 "" H 16400 900 50  0001 C CNN
+	1    16400 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR020
+U 1 1 5D9BC38E
+P 17650 900
+F 0 "#PWR020" H 17650 750 50  0001 C CNN
+F 1 "VCC" H 17667 1073 50  0000 C CNN
+F 2 "" H 17650 900 50  0001 C CNN
+F 3 "" H 17650 900 50  0001 C CNN
+	1    17650 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR021
+U 1 1 5D9BC5D3
+P 17800 900
+F 0 "#PWR021" H 17800 750 50  0001 C CNN
+F 1 "VCC" H 17817 1073 50  0000 C CNN
+F 2 "" H 17800 900 50  0001 C CNN
+F 3 "" H 17800 900 50  0001 C CNN
+	1    17800 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR023
+U 1 1 5D9BCAE8
+P 19050 900
+F 0 "#PWR023" H 19050 750 50  0001 C CNN
+F 1 "VCC" H 19067 1073 50  0000 C CNN
+F 2 "" H 19050 900 50  0001 C CNN
+F 3 "" H 19050 900 50  0001 C CNN
+	1    19050 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR024
+U 1 1 5D9BCD2D
+P 19200 900
+F 0 "#PWR024" H 19200 750 50  0001 C CNN
+F 1 "VCC" H 19217 1073 50  0000 C CNN
+F 2 "" H 19200 900 50  0001 C CNN
+F 3 "" H 19200 900 50  0001 C CNN
+	1    19200 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR026
+U 1 1 5D9BCF72
+P 20450 900
+F 0 "#PWR026" H 20450 750 50  0001 C CNN
+F 1 "VCC" H 20467 1073 50  0000 C CNN
+F 2 "" H 20450 900 50  0001 C CNN
+F 3 "" H 20450 900 50  0001 C CNN
+	1    20450 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR027
+U 1 1 5D9BD1B7
+P 20600 900
+F 0 "#PWR027" H 20600 750 50  0001 C CNN
+F 1 "VCC" H 20617 1073 50  0000 C CNN
+F 2 "" H 20600 900 50  0001 C CNN
+F 3 "" H 20600 900 50  0001 C CNN
+	1    20600 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR029
+U 1 1 5D9BD3FC
+P 21850 900
+F 0 "#PWR029" H 21850 750 50  0001 C CNN
+F 1 "VCC" H 21867 1073 50  0000 C CNN
+F 2 "" H 21850 900 50  0001 C CNN
+F 3 "" H 21850 900 50  0001 C CNN
+	1    21850 900 
+	1    0    0    -1  
+$EndComp
+Text GLabel 12100 1100 0    50   Input ~ 0
+LED
+Wire Wire Line
+	12100 1100 12300 1100
+Wire Wire Line
+	12950 1100 12950 950 
+Wire Wire Line
+	12950 950  13700 950 
+Wire Wire Line
+	13700 950  13700 1100
+Wire Wire Line
+	14350 1100 14350 950 
+Wire Wire Line
+	14350 950  15100 950 
+Wire Wire Line
+	15100 950  15100 1100
+Wire Wire Line
+	15750 1100 15750 950 
+Wire Wire Line
+	15750 950  16500 950 
+Wire Wire Line
+	16500 950  16500 1100
+Wire Wire Line
+	17150 1100 17150 950 
+Wire Wire Line
+	17150 950  17900 950 
+Wire Wire Line
+	17900 950  17900 1100
+Wire Wire Line
+	18550 1100 18550 950 
+Wire Wire Line
+	18550 950  19300 950 
+Wire Wire Line
+	19300 950  19300 1100
+Wire Wire Line
+	19950 1100 19950 950 
+Wire Wire Line
+	19950 950  20700 950 
+Wire Wire Line
+	20700 950  20700 1100
+Wire Wire Line
+	21350 1100 21350 950 
+Wire Wire Line
+	21350 950  22050 950 
+Wire Wire Line
+	22050 950  22050 1250
+Wire Wire Line
+	22050 1250 22400 1250
+NoConn ~ 3150 1400
+NoConn ~ 1750 1400
+Text GLabel 1300 5200 0    50   Input ~ 0
+GND
+Text GLabel 1300 5450 0    50   Input ~ 0
+GND
+Text GLabel 1300 5675 0    50   Input ~ 0
+GND
+Text GLabel 1300 5925 0    50   Input ~ 0
+GND
+Text GLabel 1300 6175 0    50   Input ~ 0
+GND
+Text GLabel 1300 6425 0    50   Input ~ 0
+GND
+Text GLabel 1300 6650 0    50   Input ~ 0
+GND
+Text GLabel 1300 6900 0    50   Input ~ 0
+GND
+$EndSCHEMATC
