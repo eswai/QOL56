@@ -43,6 +43,8 @@ ortholinearキーボードはplanckが有名ですが、planckよりも2列、8�
 また、kicadファイルも公開していますので、自由に改造して自分好みのレイアウトを作っていただくことも可能です。
 QMKのコードは [GitHub](https://github.com/eswai/qmk_firmware/tree/master/keyboards/qol56) にありますので、キーマップの修正が可能です。
 
+![qol56](qol56-parts.jpg)
+
 ![qol56](qol56-pcb1.png)
 
 ![qol56](qol56-pcb2.png)
