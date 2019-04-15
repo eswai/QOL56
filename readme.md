@@ -48,10 +48,10 @@ ortholinearキーボードはplanckが有名ですが、planckよりも2列、8�
 |アクリルボトムプレート3種類|2mm|1 set|
 |キースイッチ|MX互換|56|
 |キーキャップ|1U|56|
-|ねじ|M2 x 4mm|8|
-|ねじ|M2 x 10mm|8|
+|ねじ|M2 x 4mm|12|
+|ねじ|M2 x 10mm|4|
 |スペーサ|M2 x 7mm|8|
-|Pro Micro||1|
+|Pro Micro|ATmega32U4 5V 16MHz|1|
 |ダイオード|1N4148Wまたは1N4148|56|
 |Kailh PCB Socket|CPG151101S11|54|
 |タクトスイッチ|2極 SMD 4x3x2mm|1|
